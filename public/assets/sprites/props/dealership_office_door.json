@@ -1,0 +1,15 @@
+{
+ "w": 172,
+ "h": 266,
+ "anchorX": -1813.0,
+ "anchorY": 117.63,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  22.71,
+  9.01
+ ],
+ "anchor_note": "all dealership_* layers share this anchor (centre of the wall bbox)",
+ "layer": "door",
+ "sortY": -0.905
+}

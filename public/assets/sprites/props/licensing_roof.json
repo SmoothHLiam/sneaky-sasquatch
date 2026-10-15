@@ -1,0 +1,14 @@
+{
+ "w": 1540,
+ "h": 1290,
+ "anchorX": 769.0,
+ "anchorY": 1080.15,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  7.65,
+  7.0
+ ],
+ "layer": "roof",
+ "note": "roof + AC + vent only"
+}

@@ -1,0 +1,25 @@
+{
+ "w": 856,
+ "h": 550,
+ "anchorX": 427.0,
+ "anchorY": 525.69,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  4.25,
+  0.3
+ ],
+ "blocksSight": false,
+ "height": 4.16,
+ "posts": [
+  [
+   -2.0,
+   0.0
+  ],
+  [
+   2.0,
+   0.0
+  ]
+ ],
+ "note": "collide with the two posts (0.23 x 0.24); the board is 1.03-2.82 m up"
+}

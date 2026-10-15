@@ -1,0 +1,16 @@
+{
+ "w": 520,
+ "h": 80,
+ "anchorX": -741.0,
+ "anchorY": -111.84,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  12.55,
+  6.05
+ ],
+ "anchor_note": "all garage_* layers share this anchor (centre of the wall bbox)",
+ "layer": "interior_front",
+ "sortY": -1.185,
+ "note": "annex front wall cut, side-door gap"
+}

@@ -1,0 +1,14 @@
+{
+ "w": 976,
+ "h": 2126,
+ "anchorX": 471.02,
+ "anchorY": 1604.91,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.2,
+  2.2
+ ],
+ "blocksSight": true,
+ "note": "trunk ~2.2 m wide at the base; roots are walkable decoration"
+}

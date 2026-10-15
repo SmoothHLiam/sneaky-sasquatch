@@ -1,0 +1,16 @@
+{
+ "w": 34,
+ "h": 382,
+ "anchorX": -401.53,
+ "anchorY": 507.59,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  8.01,
+  7.91
+ ],
+ "anchor_note": "all station_* layers share this anchor (centre of the wall bbox)",
+ "layer": "door",
+ "sortY": 1.225,
+ "note": "partition door swung open into the north room"
+}

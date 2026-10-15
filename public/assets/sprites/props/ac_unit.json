@@ -1,0 +1,15 @@
+{
+ "w": 288,
+ "h": 250,
+ "anchorX": 144.0,
+ "anchorY": 201.3,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  1.4,
+  0.66
+ ],
+ "blocksSight": false,
+ "height": 1.18,
+ "note": "rooftop condenser; also baked into the building roofs (json roofProps)"
+}

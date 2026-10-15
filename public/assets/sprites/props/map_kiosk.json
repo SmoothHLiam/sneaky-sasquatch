@@ -1,0 +1,25 @@
+{
+ "w": 454,
+ "h": 516,
+ "anchorX": 226.0,
+ "anchorY": 483.23,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.0,
+  0.45
+ ],
+ "blocksSight": false,
+ "height": 3.38,
+ "posts": [
+  [
+   -0.79,
+   0.0
+  ],
+  [
+   0.79,
+   0.0
+  ]
+ ],
+ "note": "like notice_board_maps but with the clean red roof + a printed trail map (o05: stands on the lawn NW of the dealership, next to a hydrant)"
+}

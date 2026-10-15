@@ -1,0 +1,29 @@
+{
+ "w": 982,
+ "h": 410,
+ "anchorX": 490.0,
+ "anchorY": 288.97,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  4.87,
+  1.46
+ ],
+ "blocksSight": false,
+ "height": 1.38,
+ "steps": {
+  "2": {
+   "x": -1.66,
+   "top_z": 0.73
+  },
+  "1": {
+   "x": 0.0,
+   "top_z": 1.38
+  },
+  "3": {
+   "x": 1.665,
+   "top_z": 0.73
+  }
+ },
+ "note": "step x = block centre from the anchor; winners stand at y=0 on top"
+}

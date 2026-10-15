@@ -1,0 +1,107 @@
+{
+ "ref": [
+  3024,
+  1898
+ ],
+ "notes": "Red boombox (t0288.0). Drag the antenna (rotate about pivot; observed from ~0 deg = straight up to ~50 deg; the still shows 48.7) or a knob (rotate about its pivot); either stops the music: stop emitting notes. Notes: spawn cu_radio_note_0/1 at emitter every ~0.6 s, rise ~250 ref px over ~1.5 s with a small sideways sway, fade out. antenna.capsule = hit area: within r ref px of the segment that starts at the pivot and runs len px along the rod (straight up rotated by the current angle).",
+ "parts": {
+  "body": {
+   "key": "cu_radio_body",
+   "x": 1515,
+   "y": 1010,
+   "w": 1110,
+   "h": 720,
+   "hit": [
+    972,
+    660,
+    2058,
+    1356
+   ]
+  },
+  "antenna": {
+   "key": "cu_radio_antenna",
+   "x": 1101,
+   "y": 335,
+   "w": 60,
+   "h": 866,
+   "origin": [
+    0.5,
+    0.9654
+   ],
+   "pivot": [
+    1101,
+    738
+   ],
+   "angle": 48.7,
+   "capsule": {
+    "r": 60,
+    "len": 830
+   }
+  },
+  "knobL": {
+   "key": "cu_radio_knob",
+   "x": 1148,
+   "y": 1241,
+   "w": 152,
+   "h": 136,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1148,
+    1241
+   ],
+   "angle": 0,
+   "hit": {
+    "cx": 1148,
+    "cy": 1225,
+    "r": 85
+   }
+  },
+  "knobR": {
+   "key": "cu_radio_knob",
+   "x": 1404,
+   "y": 1241,
+   "w": 152,
+   "h": 136,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1404,
+    1241
+   ],
+   "angle": 38,
+   "hit": {
+    "cx": 1404,
+    "cy": 1225,
+    "r": 85
+   }
+  }
+ },
+ "order": [
+  "body",
+  "antenna",
+  "knobL",
+  "knobR"
+ ],
+ "particles": {
+  "notes": {
+   "keys": [
+    "cu_radio_note_0",
+    "cu_radio_note_1"
+   ],
+   "emitter": [
+    1640,
+    700
+   ],
+   "w": [
+    90,
+    130
+   ],
+   "h": 130
+  }
+ }
+}

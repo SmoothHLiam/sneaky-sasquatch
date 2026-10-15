@@ -1,0 +1,24 @@
+{
+ "w": 664,
+ "h": 398,
+ "anchorX": 317.27,
+ "anchorY": 392.13,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.2,
+  0.3
+ ],
+ "blocksSight": false,
+ "board": {
+  "w": 3.17,
+  "h": 1.11,
+  "centre_m": [
+   0.07,
+   -0.12,
+   1.98
+  ],
+  "roll_deg": -6.3,
+  "note": "screen roll: text baseline rotates clockwise by ~6.3 deg"
+ }
+}

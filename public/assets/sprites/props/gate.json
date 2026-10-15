@@ -1,0 +1,14 @@
+{
+ "w": 772,
+ "h": 282,
+ "anchorX": 47.0,
+ "anchorY": 244.35,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.45,
+  0.45
+ ],
+ "blocksSight": false,
+ "note": "north post + arm swung OPEN along +x (3.6 m)"
+}

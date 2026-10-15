@@ -1,0 +1,15 @@
+{
+ "w": 750,
+ "h": 700,
+ "anchorX": 374.0,
+ "anchorY": 466.82,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  3.7,
+  2.9
+ ],
+ "blocksSight": false,
+ "walkable": true,
+ "note": "deck runs along x (crossing a N-S river) as in t0129.6; railings block y"
+}

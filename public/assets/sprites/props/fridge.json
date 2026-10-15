@@ -1,0 +1,15 @@
+{
+ "w": 172,
+ "h": 308,
+ "anchorX": 86.0,
+ "anchorY": 262.58,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.82,
+  0.5
+ ],
+ "blocksSight": false,
+ "height": 1.78,
+ "note": "door hinged on the west side"
+}

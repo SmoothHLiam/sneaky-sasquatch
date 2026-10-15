@@ -1,0 +1,15 @@
+{
+ "w": 500,
+ "h": 264,
+ "anchorX": 249.0,
+ "anchorY": 132.35,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.45,
+  1.61
+ ],
+ "blocksSight": false,
+ "decal": true,
+ "note": "slab raised 0.22 m; trash_can sits at its centre"
+}

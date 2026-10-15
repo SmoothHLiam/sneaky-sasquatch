@@ -1,0 +1,4008 @@
+{
+ "sprites": {
+  "ac_unit": {
+   "file": "sprites/props/ac_unit.png",
+   "w": 288,
+   "h": 250,
+   "anchorX": 144,
+   "anchorY": 201.3,
+   "ppm": 200
+  },
+  "armchair_orange": {
+   "file": "sprites/props/armchair_orange.png",
+   "w": 134,
+   "h": 240,
+   "anchorX": 66,
+   "anchorY": 179.29,
+   "ppm": 200
+  },
+  "atm": {
+   "file": "sprites/props/atm.png",
+   "w": 172,
+   "h": 340,
+   "anchorX": 86,
+   "anchorY": 309.96,
+   "ppm": 200
+  },
+  "autumn_maroon": {
+   "file": "sprites/props/autumn_maroon.svg",
+   "w": 864,
+   "h": 1042,
+   "anchorX": 431.59999999999997,
+   "anchorY": 1011.5999999999998,
+   "ppm": 200
+  },
+  "autumn_olive": {
+   "file": "sprites/props/autumn_olive.svg",
+   "w": 814,
+   "h": 997,
+   "anchorX": 406.79999999999995,
+   "anchorY": 966.8000000000001,
+   "ppm": 200
+  },
+  "autumn_orange": {
+   "file": "sprites/props/autumn_orange.svg",
+   "w": 888,
+   "h": 1084,
+   "anchorX": 443.99999999999994,
+   "anchorY": 1054,
+   "ppm": 200
+  },
+  "bbq_grill": {
+   "file": "sprites/props/bbq_grill.png",
+   "w": 242,
+   "h": 216,
+   "anchorX": 121.05,
+   "anchorY": 129,
+   "ppm": 200
+  },
+  "bed": {
+   "file": "sprites/props/bed.png",
+   "w": 180,
+   "h": 344,
+   "anchorX": 89,
+   "anchorY": 220.71,
+   "ppm": 200
+  },
+  "bed_teal": {
+   "file": "sprites/props/bed_teal.png",
+   "w": 174,
+   "h": 324,
+   "anchorX": 87,
+   "anchorY": 210.46,
+   "ppm": 200
+  },
+  "bench_red": {
+   "file": "sprites/props/bench_red.png",
+   "w": 120,
+   "h": 428,
+   "anchorX": 59,
+   "anchorY": 269.96,
+   "ppm": 200
+  },
+  "berry_bush_a": {
+   "file": "sprites/props/berry_bush_a.svg",
+   "w": 740,
+   "h": 399,
+   "anchorX": 370,
+   "anchorY": 358.8986916396394,
+   "ppm": 200
+  },
+  "berry_bush_b": {
+   "file": "sprites/props/berry_bush_b.svg",
+   "w": 860,
+   "h": 500,
+   "anchorX": 429.9999999999999,
+   "anchorY": 459.8104516328685,
+   "ppm": 200
+  },
+  "birch_a": {
+   "file": "sprites/props/birch_a.svg",
+   "w": 814,
+   "h": 1077,
+   "anchorX": 406.79999999999995,
+   "anchorY": 1046.7999999999997,
+   "ppm": 200
+  },
+  "birch_b": {
+   "file": "sprites/props/birch_b.svg",
+   "w": 740,
+   "h": 950,
+   "anchorX": 369.6,
+   "anchorY": 919.6,
+   "ppm": 200
+  },
+  "blanket": {
+   "file": "sprites/props/blanket.png",
+   "w": 292,
+   "h": 342,
+   "anchorX": 145.6,
+   "anchorY": 171.33,
+   "ppm": 200
+  },
+  "bleachers_long": {
+   "file": "sprites/props/bleachers_long.png",
+   "w": 2808,
+   "h": 540,
+   "anchorX": 1404,
+   "anchorY": 408.56,
+   "ppm": 200
+  },
+  "bleachers_short": {
+   "file": "sprites/props/bleachers_short.png",
+   "w": 1408,
+   "h": 540,
+   "anchorX": 704,
+   "anchorY": 408.56,
+   "ppm": 200
+  },
+  "boombox": {
+   "file": "sprites/props/boombox.png",
+   "w": 92,
+   "h": 104,
+   "anchorX": 45,
+   "anchorY": 87.83,
+   "ppm": 200
+  },
+  "boombox_on_post": {
+   "file": "sprites/props/boombox_on_post.png",
+   "w": 144,
+   "h": 238,
+   "anchorX": 71,
+   "anchorY": 192.1,
+   "ppm": 200
+  },
+  "boombox_post": {
+   "file": "sprites/props/boombox_post.png",
+   "w": 144,
+   "h": 196,
+   "anchorX": 71,
+   "anchorY": 150.82,
+   "ppm": 200
+  },
+  "bridge_wood": {
+   "file": "sprites/props/bridge_wood.png",
+   "w": 750,
+   "h": 700,
+   "anchorX": 374,
+   "anchorY": 466.82,
+   "ppm": 200
+  },
+  "bridge_wood_ns": {
+   "file": "sprites/props/bridge_wood_ns.png",
+   "w": 594,
+   "h": 722,
+   "anchorX": 296,
+   "anchorY": 424.88,
+   "ppm": 200
+  },
+  "brochure_stand": {
+   "file": "sprites/props/brochure_stand.png",
+   "w": 148,
+   "h": 236,
+   "anchorX": 74,
+   "anchorY": 200.51,
+   "ppm": 200
+  },
+  "bus_stop": {
+   "file": "sprites/props/bus_stop.png",
+   "w": 148,
+   "h": 458,
+   "anchorX": 74,
+   "anchorY": 444.22,
+   "ppm": 200
+  },
+  "bush_a": {
+   "file": "sprites/props/bush_a.svg",
+   "w": 681,
+   "h": 382,
+   "anchorX": 340.00000000000006,
+   "anchorY": 341.17958979600115,
+   "ppm": 200
+  },
+  "bush_b": {
+   "file": "sprites/props/bush_b.svg",
+   "w": 800,
+   "h": 436,
+   "anchorX": 400,
+   "anchorY": 395.0616116793454,
+   "ppm": 200
+  },
+  "bush_c": {
+   "file": "sprites/props/bush_c.svg",
+   "w": 560,
+   "h": 321,
+   "anchorX": 280,
+   "anchorY": 280.93115836660377,
+   "ppm": 200
+  },
+  "cabin": {
+   "file": "sprites/props/cabin.png",
+   "w": 846,
+   "h": 1124,
+   "anchorX": 421.99,
+   "anchorY": 889.25,
+   "ppm": 200
+  },
+  "cabin_door_open": {
+   "file": "sprites/props/cabin_door_open.png",
+   "w": 182,
+   "h": 308,
+   "anchorX": -9.58,
+   "anchorY": 95,
+   "ppm": 200
+  },
+  "cabin_interior": {
+   "file": "sprites/props/cabin_interior.png",
+   "w": 662,
+   "h": 822,
+   "anchorX": 331,
+   "anchorY": 596.5,
+   "ppm": 200
+  },
+  "cabin_interior_front": {
+   "file": "sprites/props/cabin_interior_front.png",
+   "w": 662,
+   "h": 88,
+   "anchorX": 331,
+   "anchorY": -137.84,
+   "ppm": 200
+  },
+  "cabin_roof": {
+   "file": "sprites/props/cabin_roof.png",
+   "w": 846,
+   "h": 814,
+   "anchorX": 421.99,
+   "anchorY": 889.25,
+   "ppm": 200
+  },
+  "cabinet_wood": {
+   "file": "sprites/props/cabinet_wood.png",
+   "w": 172,
+   "h": 316,
+   "anchorX": 86,
+   "anchorY": 273.31,
+   "ppm": 200
+  },
+  "cache_chest": {
+   "file": "sprites/props/cache_chest.png",
+   "w": 228,
+   "h": 198,
+   "anchorX": 113,
+   "anchorY": 150.57,
+   "ppm": 200
+  },
+  "camp_chair": {
+   "file": "sprites/props/camp_chair.png",
+   "w": 108,
+   "h": 194,
+   "anchorX": 54,
+   "anchorY": 153.53,
+   "ppm": 200
+  },
+  "camp_chair_e": {
+   "file": "sprites/props/camp_chair_e.png",
+   "w": 102,
+   "h": 200,
+   "anchorX": 50,
+   "anchorY": 156.68,
+   "ppm": 200
+  },
+  "camp_chair_n": {
+   "file": "sprites/props/camp_chair_n.png",
+   "w": 110,
+   "h": 134,
+   "anchorX": 54,
+   "anchorY": 94.43,
+   "ppm": 200
+  },
+  "camp_chair_w": {
+   "file": "sprites/props/camp_chair_w.png",
+   "w": 102,
+   "h": 200,
+   "anchorX": 50,
+   "anchorY": 156.68,
+   "ppm": 200
+  },
+  "camp_sign": {
+   "file": "sprites/props/camp_sign.png",
+   "w": 144,
+   "h": 326,
+   "anchorX": 71.5,
+   "anchorY": 307.99,
+   "ppm": 200
+  },
+  "camp_sign_a": {
+   "file": "sprites/props/camp_sign_a.png",
+   "w": 144,
+   "h": 326,
+   "anchorX": 71.5,
+   "anchorY": 307.99,
+   "ppm": 200
+  },
+  "camp_sign_b": {
+   "file": "sprites/props/camp_sign_b.png",
+   "w": 144,
+   "h": 326,
+   "anchorX": 71.5,
+   "anchorY": 307.99,
+   "ppm": 200
+  },
+  "camp_sign_c": {
+   "file": "sprites/props/camp_sign_c.png",
+   "w": 144,
+   "h": 326,
+   "anchorX": 71.5,
+   "anchorY": 307.99,
+   "ppm": 200
+  },
+  "camp_sign_d": {
+   "file": "sprites/props/camp_sign_d.png",
+   "w": 144,
+   "h": 326,
+   "anchorX": 71.5,
+   "anchorY": 307.99,
+   "ppm": 200
+  },
+  "car_lift": {
+   "file": "sprites/props/car_lift.png",
+   "w": 696,
+   "h": 752,
+   "anchorX": 347,
+   "anchorY": 625.91,
+   "ppm": 200
+  },
+  "car_white": {
+   "file": "sprites/props/car_white.png",
+   "w": 636,
+   "h": 384,
+   "anchorX": 318,
+   "anchorY": 289.47,
+   "ppm": 200
+  },
+  "cattails": {
+   "file": "sprites/props/cattails.svg",
+   "w": 140,
+   "h": 270,
+   "anchorX": 70,
+   "anchorY": 250,
+   "ppm": 200
+  },
+  "cave_mouth": {
+   "file": "sprites/props/cave_mouth.png",
+   "w": 1284,
+   "h": 1440,
+   "anchorX": 641.52,
+   "anchorY": 1235.31,
+   "ppm": 200
+  },
+  "chair_cyan": {
+   "file": "sprites/props/chair_cyan.png",
+   "w": 108,
+   "h": 166,
+   "anchorX": 54,
+   "anchorY": 129.45,
+   "ppm": 200
+  },
+  "chair_cyan_e": {
+   "file": "sprites/props/chair_cyan_e.png",
+   "w": 94,
+   "h": 210,
+   "anchorX": 46,
+   "anchorY": 166.53,
+   "ppm": 200
+  },
+  "chair_cyan_n": {
+   "file": "sprites/props/chair_cyan_n.png",
+   "w": 110,
+   "h": 130,
+   "anchorX": 54,
+   "anchorY": 92.51,
+   "ppm": 200
+  },
+  "chair_cyan_w": {
+   "file": "sprites/props/chair_cyan_w.png",
+   "w": 94,
+   "h": 210,
+   "anchorX": 46,
+   "anchorY": 166.53,
+   "ppm": 200
+  },
+  "cliff_rocks_a": {
+   "file": "sprites/props/cliff_rocks_a.png",
+   "w": 1348,
+   "h": 1448,
+   "anchorX": 688.28,
+   "anchorY": 1235.31,
+   "ppm": 200
+  },
+  "cliff_rocks_b": {
+   "file": "sprites/props/cliff_rocks_b.png",
+   "w": 1338,
+   "h": 1440,
+   "anchorX": 690.2,
+   "anchorY": 1235.31,
+   "ppm": 200
+  },
+  "computer_desk": {
+   "file": "sprites/props/computer_desk.png",
+   "w": 170,
+   "h": 676,
+   "anchorX": 84,
+   "anchorY": 383.97,
+   "ppm": 200
+  },
+  "cooler": {
+   "file": "sprites/props/cooler.png",
+   "w": 190,
+   "h": 172,
+   "anchorX": 94,
+   "anchorY": 131.32,
+   "ppm": 200
+  },
+  "cooler_open": {
+   "file": "sprites/props/cooler_open.png",
+   "w": 182,
+   "h": 228,
+   "anchorX": 95,
+   "anchorY": 188.07,
+   "ppm": 200
+  },
+  "customs": {
+   "file": "sprites/props/customs.png",
+   "w": 2622,
+   "h": 1778,
+   "anchorX": 1310,
+   "anchorY": 1281.84,
+   "ppm": 200
+  },
+  "customs_desk": {
+   "file": "sprites/props/customs_desk.png",
+   "w": 502,
+   "h": 262,
+   "anchorX": 250,
+   "anchorY": 198.45,
+   "ppm": 200
+  },
+  "customs_door": {
+   "file": "sprites/props/customs_door.png",
+   "w": 194,
+   "h": 266,
+   "anchorX": -464,
+   "anchorY": -218.85,
+   "ppm": 200
+  },
+  "customs_door_open": {
+   "file": "sprites/props/customs_door_open.png",
+   "w": 82,
+   "h": 398,
+   "anchorX": -454.6,
+   "anchorY": -225.15,
+   "ppm": 200
+  },
+  "customs_interior": {
+   "file": "sprites/props/customs_interior.png",
+   "w": 2622,
+   "h": 1710,
+   "anchorX": 1310,
+   "anchorY": 1244.91,
+   "ppm": 200
+  },
+  "customs_interior_front": {
+   "file": "sprites/props/customs_interior_front.png",
+   "w": 2620,
+   "h": 80,
+   "anchorX": 1310,
+   "anchorY": -413.64,
+   "ppm": 200
+  },
+  "customs_roof": {
+   "file": "sprites/props/customs_roof.png",
+   "w": 2622,
+   "h": 1142,
+   "anchorX": 1310,
+   "anchorY": 1281.84,
+   "ppm": 200
+  },
+  "dealer_desk": {
+   "file": "sprites/props/dealer_desk.png",
+   "w": 432,
+   "h": 282,
+   "anchorX": 216,
+   "anchorY": 202.78,
+   "ppm": 200
+  },
+  "dealership": {
+   "file": "sprites/props/dealership.png",
+   "w": 4552,
+   "h": 2338,
+   "anchorX": 2275,
+   "anchorY": 1585.77,
+   "ppm": 200
+  },
+  "dealership_door": {
+   "file": "sprites/props/dealership_door.png",
+   "w": 198,
+   "h": 264,
+   "anchorX": -687,
+   "anchorY": -461.31,
+   "ppm": 200
+  },
+  "dealership_door_open": {
+   "file": "sprites/props/dealership_door_open.png",
+   "w": 84,
+   "h": 398,
+   "anchorX": -677.6,
+   "anchorY": -461.31,
+   "ppm": 200
+  },
+  "dealership_interior": {
+   "file": "sprites/props/dealership_interior.png",
+   "w": 4552,
+   "h": 2218,
+   "anchorX": 2275,
+   "anchorY": 1531.6,
+   "ppm": 200
+  },
+  "dealership_interior_front": {
+   "file": "sprites/props/dealership_interior_front.png",
+   "w": 4550,
+   "h": 116,
+   "anchorX": 2275,
+   "anchorY": -635.07,
+   "ppm": 200
+  },
+  "dealership_interior_mid": {
+   "file": "sprites/props/dealership_interior_mid.png",
+   "w": 854,
+   "h": 1178,
+   "anchorX": -1385,
+   "anchorY": 1029.71,
+   "ppm": 200
+  },
+  "dealership_office_door": {
+   "file": "sprites/props/dealership_office_door.png",
+   "w": 172,
+   "h": 266,
+   "anchorX": -1813,
+   "anchorY": 117.63,
+   "ppm": 200
+  },
+  "dealership_office_door_open": {
+   "file": "sprites/props/dealership_office_door_open.png",
+   "w": 74,
+   "h": 384,
+   "anchorX": -1803.6,
+   "anchorY": 114.48,
+   "ppm": 200
+  },
+  "dealership_roof": {
+   "file": "sprites/props/dealership_roof.png",
+   "w": 4552,
+   "h": 1468,
+   "anchorX": 2275,
+   "anchorY": 1585.77,
+   "ppm": 200
+  },
+  "duck_hat_item": {
+   "file": "sprites/props/duck_hat_item.png",
+   "w": 148,
+   "h": 116,
+   "anchorX": 85.02,
+   "anchorY": 282.05,
+   "ppm": 200
+  },
+  "entrance_gantry": {
+   "file": "sprites/props/entrance_gantry.png",
+   "w": 1822,
+   "h": 752,
+   "anchorX": 910,
+   "anchorY": 728.61,
+   "ppm": 200
+  },
+  "fence": {
+   "file": "sprites/props/fence.png",
+   "w": 460,
+   "h": 224,
+   "anchorX": 241.73,
+   "anchorY": 199.34,
+   "ppm": 200
+  },
+  "fence_post": {
+   "file": "sprites/props/fence_post.png",
+   "w": 58,
+   "h": 224,
+   "anchorX": 28.73,
+   "anchorY": 199.34,
+   "ppm": 200
+  },
+  "fern_a": {
+   "file": "sprites/props/fern_a.svg",
+   "w": 308,
+   "h": 126,
+   "anchorX": 154,
+   "anchorY": 106,
+   "ppm": 200
+  },
+  "fern_b": {
+   "file": "sprites/props/fern_b.svg",
+   "w": 260,
+   "h": 111,
+   "anchorX": 130,
+   "anchorY": 90,
+   "ppm": 200
+  },
+  "fire_hydrant": {
+   "file": "sprites/props/fire_hydrant.png",
+   "w": 108,
+   "h": 182,
+   "anchorX": 54,
+   "anchorY": 144.74,
+   "ppm": 200
+  },
+  "firepit": {
+   "file": "sprites/props/firepit.png",
+   "w": 240,
+   "h": 192,
+   "anchorX": 120.01,
+   "anchorY": 106.02,
+   "ppm": 200
+  },
+  "firepit_lit": {
+   "file": "sprites/props/firepit_lit.png",
+   "w": 240,
+   "h": 230,
+   "anchorX": 120.01,
+   "anchorY": 143.86,
+   "ppm": 200
+  },
+  "firewood": {
+   "file": "sprites/props/firewood.png",
+   "w": 296,
+   "h": 266,
+   "anchorX": 146.66,
+   "anchorY": 206.28,
+   "ppm": 200
+  },
+  "flowers_white": {
+   "file": "sprites/props/flowers_white.svg",
+   "w": 140,
+   "h": 110,
+   "anchorX": 70,
+   "anchorY": 80,
+   "ppm": 200
+  },
+  "flowers_yellow": {
+   "file": "sprites/props/flowers_yellow.svg",
+   "w": 140,
+   "h": 110,
+   "anchorX": 70,
+   "anchorY": 80,
+   "ppm": 200
+  },
+  "foodbox": {
+   "file": "sprites/props/foodbox.png",
+   "w": 282,
+   "h": 250,
+   "anchorX": 140,
+   "anchorY": 189.48,
+   "ppm": 200
+  },
+  "fridge": {
+   "file": "sprites/props/fridge.png",
+   "w": 172,
+   "h": 308,
+   "anchorX": 86,
+   "anchorY": 262.58,
+   "ppm": 200
+  },
+  "fridge_open": {
+   "file": "sprites/props/fridge_open.png",
+   "w": 216,
+   "h": 420,
+   "anchorX": 129.05,
+   "anchorY": 262.58,
+   "ppm": 200
+  },
+  "garage": {
+   "file": "sprites/props/garage.png",
+   "w": 2520,
+   "h": 1512,
+   "anchorX": 1259,
+   "anchorY": 1026.22,
+   "ppm": 200
+  },
+  "garage_door": {
+   "file": "sprites/props/garage_door.png",
+   "w": 186,
+   "h": 292,
+   "anchorX": -895,
+   "anchorY": 94.98,
+   "ppm": 200
+  },
+  "garage_door_open": {
+   "file": "sprites/props/garage_door_open.png",
+   "w": 64,
+   "h": 420,
+   "anchorX": -885.34,
+   "anchorY": 88.67,
+   "ppm": 200
+  },
+  "garage_interior": {
+   "file": "sprites/props/garage_interior.png",
+   "w": 2520,
+   "h": 1434,
+   "anchorX": 1259,
+   "anchorY": 980.66,
+   "ppm": 200
+  },
+  "garage_interior_front": {
+   "file": "sprites/props/garage_interior_front.png",
+   "w": 2008,
+   "h": 80,
+   "anchorX": 1259,
+   "anchorY": -401.82,
+   "ppm": 200
+  },
+  "garage_interior_front_annex": {
+   "file": "sprites/props/garage_interior_front_annex.png",
+   "w": 520,
+   "h": 80,
+   "anchorX": -741,
+   "anchorY": -111.84,
+   "ppm": 200
+  },
+  "garage_roof": {
+   "file": "sprites/props/garage_roof.png",
+   "w": 2520,
+   "h": 1002,
+   "anchorX": 1259,
+   "anchorY": 1026.22,
+   "ppm": 200
+  },
+  "gate": {
+   "file": "sprites/props/gate.png",
+   "w": 772,
+   "h": 282,
+   "anchorX": 47,
+   "anchorY": 244.35,
+   "ppm": 200
+  },
+  "gate_closed": {
+   "file": "sprites/props/gate_closed.png",
+   "w": 96,
+   "h": 664,
+   "anchorX": 47,
+   "anchorY": 244.35,
+   "ppm": 200
+  },
+  "gate_post": {
+   "file": "sprites/props/gate_post.png",
+   "w": 96,
+   "h": 282,
+   "anchorX": 47,
+   "anchorY": 244.35,
+   "ppm": 200
+  },
+  "guard_rail": {
+   "file": "sprites/props/guard_rail.png",
+   "w": 406,
+   "h": 214,
+   "anchorX": 210,
+   "anchorY": 182.84,
+   "ppm": 200
+  },
+  "guard_rail_post": {
+   "file": "sprites/props/guard_rail_post.png",
+   "w": 40,
+   "h": 210,
+   "anchorX": 19,
+   "anchorY": 177.81,
+   "ppm": 200
+  },
+  "hedge": {
+   "file": "sprites/props/hedge.png",
+   "w": 418,
+   "h": 310,
+   "anchorX": 204.95,
+   "anchorY": 245.61,
+   "ppm": 200
+  },
+  "hide_bush": {
+   "file": "sprites/props/hide_bush.svg",
+   "w": 590,
+   "h": 344,
+   "anchorX": 295,
+   "anchorY": 303.4722005620785,
+   "ppm": 200
+  },
+  "jerry_can": {
+   "file": "sprites/props/jerry_can.png",
+   "w": 88,
+   "h": 130,
+   "anchorX": 38,
+   "anchorY": 105.83,
+   "ppm": 200
+  },
+  "kitchen_counter": {
+   "file": "sprites/props/kitchen_counter.png",
+   "w": 258,
+   "h": 222,
+   "anchorX": 129,
+   "anchorY": 177.27,
+   "ppm": 200
+  },
+  "lantern": {
+   "file": "sprites/props/lantern.png",
+   "w": 70,
+   "h": 112,
+   "anchorX": 34,
+   "anchorY": 84.7,
+   "ppm": 200
+  },
+  "licensing": {
+   "file": "sprites/props/licensing.png",
+   "w": 1540,
+   "h": 1644,
+   "anchorX": 769,
+   "anchorY": 1080.15,
+   "ppm": 200
+  },
+  "licensing_roof": {
+   "file": "sprites/props/licensing_roof.png",
+   "w": 1540,
+   "h": 1290,
+   "anchorX": 769,
+   "anchorY": 1080.15,
+   "ppm": 200
+  },
+  "lilypad": {
+   "file": "sprites/props/lilypad.svg",
+   "w": 180,
+   "h": 120,
+   "anchorX": 90,
+   "anchorY": 60,
+   "ppm": 200
+  },
+  "log": {
+   "file": "sprites/props/log.png",
+   "w": 488,
+   "h": 98,
+   "anchorX": 243.3,
+   "anchorY": 78.33,
+   "ppm": 200
+  },
+  "lost_dog_poster": {
+   "file": "sprites/props/lost_dog_poster.png",
+   "w": 82,
+   "h": 148,
+   "anchorX": 40.12,
+   "anchorY": 211.05,
+   "ppm": 200
+  },
+  "map_kiosk": {
+   "file": "sprites/props/map_kiosk.png",
+   "w": 454,
+   "h": 516,
+   "anchorX": 226,
+   "anchorY": 483.23,
+   "ppm": 200
+  },
+  "map_piece": {
+   "file": "sprites/props/map_piece.svg",
+   "w": 90,
+   "h": 100,
+   "anchorX": 44,
+   "anchorY": 88,
+   "ppm": 200
+  },
+  "moose_head": {
+   "file": "sprites/props/moose_head.png",
+   "w": 144,
+   "h": 226,
+   "anchorX": 71.91,
+   "anchorY": 322.14,
+   "ppm": 200
+  },
+  "mushrooms": {
+   "file": "sprites/props/mushrooms.svg",
+   "w": 130,
+   "h": 90,
+   "anchorX": 60,
+   "anchorY": 60,
+   "ppm": 200
+  },
+  "newspaper_box": {
+   "file": "sprites/props/newspaper_box.png",
+   "w": 144,
+   "h": 234,
+   "anchorX": 71,
+   "anchorY": 192.32,
+   "ppm": 200
+  },
+  "newspaper_folded": {
+   "file": "sprites/props/newspaper_folded.svg",
+   "w": 144,
+   "h": 116,
+   "anchorX": 72,
+   "anchorY": 72,
+   "ppm": 200
+  },
+  "notice_board": {
+   "file": "sprites/props/notice_board.png",
+   "w": 464,
+   "h": 494,
+   "anchorX": 231.38,
+   "anchorY": 464.74,
+   "ppm": 200
+  },
+  "notice_board_maps": {
+   "file": "sprites/props/notice_board_maps.png",
+   "w": 464,
+   "h": 494,
+   "anchorX": 231.38,
+   "anchorY": 464.74,
+   "ppm": 200
+  },
+  "outhouse": {
+   "file": "sprites/props/outhouse.png",
+   "w": 378,
+   "h": 648,
+   "anchorX": 188,
+   "anchorY": 530.71,
+   "ppm": 200
+  },
+  "outhouse_door_open": {
+   "file": "sprites/props/outhouse_door_open.png",
+   "w": 378,
+   "h": 752,
+   "anchorX": 188,
+   "anchorY": 530.71,
+   "ppm": 200
+  },
+  "paint_reserved": {
+   "file": "sprites/props/paint_reserved.svg",
+   "w": 476,
+   "h": 85,
+   "anchorX": 238,
+   "anchorY": 72,
+   "ppm": 200
+  },
+  "parking_pad": {
+   "file": "sprites/props/parking_pad.png",
+   "w": 500,
+   "h": 264,
+   "anchorX": 249,
+   "anchorY": 132.35,
+   "ppm": 200
+  },
+  "payphone": {
+   "file": "sprites/props/payphone.png",
+   "w": 492,
+   "h": 472,
+   "anchorX": 245,
+   "anchorY": 344.78,
+   "ppm": 200
+  },
+  "pebble_a": {
+   "file": "sprites/props/pebble_a.svg",
+   "w": 100,
+   "h": 53,
+   "anchorX": 49.85445330105722,
+   "anchorY": 27.91267198063433,
+   "ppm": 200
+  },
+  "pebble_b": {
+   "file": "sprites/props/pebble_b.svg",
+   "w": 110,
+   "h": 59,
+   "anchorX": 54.64040313102305,
+   "anchorY": 30.784241878613827,
+   "ppm": 200
+  },
+  "picnic_basket": {
+   "file": "sprites/props/picnic_basket.svg",
+   "w": 168,
+   "h": 160,
+   "anchorX": 84,
+   "anchorY": 148,
+   "ppm": 200
+  },
+  "picnic_table": {
+   "file": "sprites/props/picnic_table.png",
+   "w": 358,
+   "h": 322,
+   "anchorX": 178,
+   "anchorY": 203.27,
+   "ppm": 200
+  },
+  "picnic_table_ew": {
+   "file": "sprites/props/picnic_table_ew.png",
+   "w": 290,
+   "h": 306,
+   "anchorX": 144.97,
+   "anchorY": 192.79,
+   "ppm": 200
+  },
+  "pine_a": {
+   "file": "sprites/props/pine_a.svg",
+   "w": 690,
+   "h": 1070,
+   "anchorX": 344.80000000000007,
+   "anchorY": 1040,
+   "ppm": 200
+  },
+  "pine_b": {
+   "file": "sprites/props/pine_b.svg",
+   "w": 789,
+   "h": 1230,
+   "anchorX": 394.4,
+   "anchorY": 1200,
+   "ppm": 200
+  },
+  "pine_c": {
+   "file": "sprites/props/pine_c.svg",
+   "w": 640,
+   "h": 950,
+   "anchorX": 320,
+   "anchorY": 920.0000000000001,
+   "ppm": 200
+  },
+  "pine_dark_a": {
+   "file": "sprites/props/pine_dark_a.svg",
+   "w": 888,
+   "h": 1310,
+   "anchorX": 443.99999999999994,
+   "anchorY": 1280,
+   "ppm": 200
+  },
+  "pine_dark_b": {
+   "file": "sprites/props/pine_dark_b.svg",
+   "w": 814,
+   "h": 1150,
+   "anchorX": 406.79999999999995,
+   "anchorY": 1120,
+   "ppm": 200
+  },
+  "pine_small_a": {
+   "file": "sprites/props/pine_small_a.svg",
+   "w": 417,
+   "h": 590,
+   "anchorX": 208.4,
+   "anchorY": 560,
+   "ppm": 200
+  },
+  "pine_small_b": {
+   "file": "sprites/props/pine_small_b.svg",
+   "w": 368,
+   "h": 511,
+   "anchorX": 183.6,
+   "anchorY": 480,
+   "ppm": 200
+  },
+  "podium_123": {
+   "file": "sprites/props/podium_123.png",
+   "w": 982,
+   "h": 410,
+   "anchorX": 490,
+   "anchorY": 288.97,
+   "ppm": 200
+  },
+  "poster_pizza": {
+   "file": "sprites/props/poster_pizza.svg",
+   "w": 233,
+   "h": 261,
+   "anchorX": 128,
+   "anchorY": 232.00000000000003,
+   "ppm": 200
+  },
+  "potted_palm": {
+   "file": "sprites/props/potted_palm.png",
+   "w": 178,
+   "h": 210,
+   "anchorX": 105.53,
+   "anchorY": 165.49,
+   "ppm": 200
+  },
+  "potted_plant": {
+   "file": "sprites/props/potted_plant.svg",
+   "w": 304,
+   "h": 250,
+   "anchorX": 152,
+   "anchorY": 238,
+   "ppm": 200
+  },
+  "power_pole": {
+   "file": "sprites/props/power_pole.png",
+   "w": 148,
+   "h": 1198,
+   "anchorX": 96,
+   "anchorY": 1156.61,
+   "ppm": 200
+  },
+  "power_pole_poster": {
+   "file": "sprites/props/power_pole_poster.png",
+   "w": 148,
+   "h": 1198,
+   "anchorX": 96,
+   "anchorY": 1156.61,
+   "ppm": 200
+  },
+  "price_plate_250": {
+   "file": "sprites/props/price_plate_250.png",
+   "w": 268,
+   "h": 106,
+   "anchorX": 134,
+   "anchorY": 96.6,
+   "ppm": 200
+  },
+  "price_plate_2500": {
+   "file": "sprites/props/price_plate_2500.png",
+   "w": 268,
+   "h": 106,
+   "anchorX": 134,
+   "anchorY": 96.6,
+   "ppm": 200
+  },
+  "price_plate_350": {
+   "file": "sprites/props/price_plate_350.png",
+   "w": 268,
+   "h": 106,
+   "anchorX": 134,
+   "anchorY": 96.6,
+   "ppm": 200
+  },
+  "price_plate_500": {
+   "file": "sprites/props/price_plate_500.png",
+   "w": 268,
+   "h": 106,
+   "anchorX": 134,
+   "anchorY": 96.6,
+   "ppm": 200
+  },
+  "price_plate_50000": {
+   "file": "sprites/props/price_plate_50000.png",
+   "w": 358,
+   "h": 106,
+   "anchorX": 179,
+   "anchorY": 96.6,
+   "ppm": 200
+  },
+  "race_track_sign": {
+   "file": "sprites/props/race_track_sign.png",
+   "w": 856,
+   "h": 550,
+   "anchorX": 427,
+   "anchorY": 525.69,
+   "ppm": 200
+  },
+  "radio_small": {
+   "file": "sprites/props/radio_small.svg",
+   "w": 128,
+   "h": 120,
+   "anchorX": 55.99999999999999,
+   "anchorY": 108,
+   "ppm": 200
+  },
+  "rock_a": {
+   "file": "sprites/props/rock_a.png",
+   "w": 218,
+   "h": 164,
+   "anchorX": 109.54,
+   "anchorY": 111.25,
+   "ppm": 200
+  },
+  "rock_b": {
+   "file": "sprites/props/rock_b.png",
+   "w": 234,
+   "h": 122,
+   "anchorX": 109.48,
+   "anchorY": 69.83,
+   "ppm": 200
+  },
+  "rock_big_a": {
+   "file": "sprites/props/rock_big_a.png",
+   "w": 422,
+   "h": 532,
+   "anchorX": 214.63,
+   "anchorY": 444.76,
+   "ppm": 200
+  },
+  "roof_vent": {
+   "file": "sprites/props/roof_vent.png",
+   "w": 200,
+   "h": 192,
+   "anchorX": 99.02,
+   "anchorY": 153.29,
+   "ppm": 200
+  },
+  "round_tree_a": {
+   "file": "sprites/props/round_tree_a.svg",
+   "w": 913,
+   "h": 1127,
+   "anchorX": 456.4,
+   "anchorY": 1096.4,
+   "ppm": 200
+  },
+  "round_tree_b": {
+   "file": "sprites/props/round_tree_b.svg",
+   "w": 839,
+   "h": 1040,
+   "anchorX": 419.19999999999993,
+   "anchorY": 1009.1999999999998,
+   "ppm": 200
+  },
+  "rug_red": {
+   "file": "sprites/props/rug_red.png",
+   "w": 768,
+   "h": 302,
+   "anchorX": 384,
+   "anchorY": 151.26,
+   "ppm": 200
+  },
+  "rug_red_station": {
+   "file": "sprites/props/rug_red_station.png",
+   "w": 682,
+   "h": 210,
+   "anchorX": 341,
+   "anchorY": 105.55,
+   "ppm": 200
+  },
+  "rug_red_station_b": {
+   "file": "sprites/props/rug_red_station_b.png",
+   "w": 548,
+   "h": 406,
+   "anchorX": 273,
+   "anchorY": 203.27,
+   "ppm": 200
+  },
+  "rv_teal": {
+   "file": "sprites/props/rv_teal.png",
+   "w": 1674,
+   "h": 686,
+   "anchorX": 838,
+   "anchorY": 528.64,
+   "ppm": 200
+  },
+  "rv_teal_door_open": {
+   "file": "sprites/props/rv_teal_door_open.png",
+   "w": 144,
+   "h": 406,
+   "anchorX": 196.71,
+   "anchorY": 236.39,
+   "ppm": 200
+  },
+  "rv_teal_front": {
+   "file": "sprites/props/rv_teal_front.png",
+   "w": 1340,
+   "h": 208,
+   "anchorX": 838,
+   "anchorY": 50.6,
+   "ppm": 200
+  },
+  "rv_teal_interior": {
+   "file": "sprites/props/rv_teal_interior.png",
+   "w": 1670,
+   "h": 678,
+   "anchorX": 834,
+   "anchorY": 528.64,
+   "ppm": 200
+  },
+  "rv_white": {
+   "file": "sprites/props/rv_white.png",
+   "w": 760,
+   "h": 666,
+   "anchorX": 420,
+   "anchorY": 520.51,
+   "ppm": 200
+  },
+  "rv_yellow": {
+   "file": "sprites/props/rv_yellow.png",
+   "w": 760,
+   "h": 666,
+   "anchorX": 420,
+   "anchorY": 520.51,
+   "ppm": 200
+  },
+  "shop_flashlight": {
+   "file": "sprites/props/shop_flashlight.svg",
+   "w": 116,
+   "h": 86,
+   "anchorX": 64,
+   "anchorY": 68,
+   "ppm": 200
+  },
+  "shop_golf": {
+   "file": "sprites/props/shop_golf.svg",
+   "w": 50,
+   "h": 219,
+   "anchorX": 34,
+   "anchorY": 206,
+   "ppm": 200
+  },
+  "shop_hat": {
+   "file": "sprites/props/shop_hat.svg",
+   "w": 118,
+   "h": 68,
+   "anchorX": 48.00000000000001,
+   "anchorY": 55.99999999999999,
+   "ppm": 200
+  },
+  "shop_interior_floor": {
+   "file": "sprites/props/shop_interior_floor.png",
+   "w": 2128,
+   "h": 1924,
+   "anchorX": 1063.64,
+   "anchorY": 1147.12,
+   "ppm": 200
+  },
+  "shop_keys": {
+   "file": "sprites/props/shop_keys.svg",
+   "w": 120,
+   "h": 96,
+   "anchorX": 62,
+   "anchorY": 80,
+   "ppm": 200
+  },
+  "shop_map": {
+   "file": "sprites/props/shop_map.svg",
+   "w": 88,
+   "h": 45,
+   "anchorX": 44,
+   "anchorY": 34,
+   "ppm": 200
+  },
+  "shop_paddle": {
+   "file": "sprites/props/shop_paddle.svg",
+   "w": 97,
+   "h": 264,
+   "anchorX": 48.00000000000001,
+   "anchorY": 252,
+   "ppm": 200
+  },
+  "shop_rod": {
+   "file": "sprites/props/shop_rod.svg",
+   "w": 48,
+   "h": 256,
+   "anchorX": 30,
+   "anchorY": 244,
+   "ppm": 200
+  },
+  "shop_shelf": {
+   "file": "sprites/props/shop_shelf.png",
+   "w": 844,
+   "h": 208,
+   "anchorX": 421,
+   "anchorY": 163.04,
+   "ppm": 200
+  },
+  "shop_shovel": {
+   "file": "sprites/props/shop_shovel.svg",
+   "w": 88,
+   "h": 243,
+   "anchorX": 44,
+   "anchorY": 230.00000000000003,
+   "ppm": 200
+  },
+  "shop_skis": {
+   "file": "sprites/props/shop_skis.svg",
+   "w": 164,
+   "h": 280,
+   "anchorX": 82,
+   "anchorY": 266,
+   "ppm": 200
+  },
+  "shop_tree": {
+   "file": "sprites/props/shop_tree.png",
+   "w": 976,
+   "h": 2126,
+   "anchorX": 471.02,
+   "anchorY": 1604.91,
+   "ppm": 200
+  },
+  "sign_campground_green": {
+   "file": "sprites/props/sign_campground_green.png",
+   "w": 856,
+   "h": 550,
+   "anchorX": 427,
+   "anchorY": 525.69,
+   "ppm": 200
+  },
+  "sign_campground_left": {
+   "file": "sprites/props/sign_campground_left.png",
+   "w": 646,
+   "h": 444,
+   "anchorX": 322,
+   "anchorY": 439.94,
+   "ppm": 200
+  },
+  "sign_exit": {
+   "file": "sprites/props/sign_exit.png",
+   "w": 646,
+   "h": 448,
+   "anchorX": 322,
+   "anchorY": 443.09,
+   "ppm": 200
+  },
+  "sign_highway": {
+   "file": "sprites/props/sign_highway.png",
+   "w": 546,
+   "h": 494,
+   "anchorX": 272,
+   "anchorY": 493.82,
+   "ppm": 200
+  },
+  "sign_racetrack_podium": {
+   "file": "sprites/props/sign_racetrack_podium.png",
+   "w": 646,
+   "h": 508,
+   "anchorX": 322,
+   "anchorY": 502.19,
+   "ppm": 200
+  },
+  "sign_racetrack_up": {
+   "file": "sprites/props/sign_racetrack_up.png",
+   "w": 646,
+   "h": 444,
+   "anchorX": 322,
+   "anchorY": 439.94,
+   "ppm": 200
+  },
+  "signpost_blank": {
+   "file": "sprites/props/signpost_blank.png",
+   "w": 646,
+   "h": 508,
+   "anchorX": 322,
+   "anchorY": 502.19,
+   "ppm": 200
+  },
+  "signpost_rv_lake": {
+   "file": "sprites/props/signpost_rv_lake.png",
+   "w": 646,
+   "h": 508,
+   "anchorX": 322,
+   "anchorY": 502.19,
+   "ppm": 200
+  },
+  "smoke_detector": {
+   "file": "sprites/props/smoke_detector.png",
+   "w": 56,
+   "h": 50,
+   "anchorX": 28,
+   "anchorY": 271.2,
+   "ppm": 200
+  },
+  "start_gantry": {
+   "file": "sprites/props/start_gantry.png",
+   "w": 1822,
+   "h": 752,
+   "anchorX": 910,
+   "anchorY": 728.61,
+   "ppm": 200
+  },
+  "start_lights": {
+   "file": "sprites/props/start_lights.png",
+   "w": 302,
+   "h": 558,
+   "anchorX": 150,
+   "anchorY": 543.32,
+   "ppm": 200
+  },
+  "station": {
+   "file": "sprites/props/station.png",
+   "w": 1754,
+   "h": 2010,
+   "anchorX": 865,
+   "anchorY": 1358.47,
+   "ppm": 200
+  },
+  "station_door": {
+   "file": "sprites/props/station_door.png",
+   "w": 176,
+   "h": 260,
+   "anchorX": 202,
+   "anchorY": -378.32,
+   "ppm": 200
+  },
+  "station_door_inner": {
+   "file": "sprites/props/station_door_inner.png",
+   "w": 176,
+   "h": 260,
+   "anchorX": -416,
+   "anchorY": 338.77,
+   "ppm": 200
+  },
+  "station_door_inner_open": {
+   "file": "sprites/props/station_door_inner_open.png",
+   "w": 34,
+   "h": 382,
+   "anchorX": -401.53,
+   "anchorY": 507.59,
+   "ppm": 200
+  },
+  "station_door_open": {
+   "file": "sprites/props/station_door_open.png",
+   "w": 48,
+   "h": 382,
+   "anchorX": 211.85,
+   "anchorY": -378.32,
+   "ppm": 200
+  },
+  "station_interior": {
+   "file": "sprites/props/station_interior.png",
+   "w": 1612,
+   "h": 1590,
+   "anchorX": 805,
+   "anchorY": 961.01,
+   "ppm": 200
+  },
+  "station_interior_front": {
+   "file": "sprites/props/station_interior_front.png",
+   "w": 1058,
+   "h": 90,
+   "anchorX": 805,
+   "anchorY": -538.94,
+   "ppm": 200
+  },
+  "station_interior_front_wing": {
+   "file": "sprites/props/station_interior_front_wing.png",
+   "w": 602,
+   "h": 90,
+   "anchorX": -205,
+   "anchorY": -192.21,
+   "ppm": 200
+  },
+  "station_interior_mid": {
+   "file": "sprites/props/station_interior_mid.png",
+   "w": 1536,
+   "h": 90,
+   "anchorX": 767,
+   "anchorY": 173.42,
+   "ppm": 200
+  },
+  "station_roof": {
+   "file": "sprites/props/station_roof.png",
+   "w": 1754,
+   "h": 1726,
+   "anchorX": 865,
+   "anchorY": 1358.47,
+   "ppm": 200
+  },
+  "stick_a": {
+   "file": "sprites/props/stick_a.svg",
+   "w": 206,
+   "h": 70,
+   "anchorX": 82.96873664716257,
+   "anchorY": 50,
+   "ppm": 200
+  },
+  "stick_b": {
+   "file": "sprites/props/stick_b.svg",
+   "w": 218,
+   "h": 70,
+   "anchorX": 88.65604997146875,
+   "anchorY": 50,
+   "ppm": 200
+  },
+  "stop_sign": {
+   "file": "sprites/props/stop_sign.png",
+   "w": 208,
+   "h": 456,
+   "anchorX": 104,
+   "anchorY": 450.18,
+   "ppm": 200
+  },
+  "stove_range": {
+   "file": "sprites/props/stove_range.png",
+   "w": 162,
+   "h": 216,
+   "anchorX": 81,
+   "anchorY": 165.5,
+   "ppm": 200
+  },
+  "stump": {
+   "file": "sprites/props/stump.png",
+   "w": 108,
+   "h": 142,
+   "anchorX": 53.26,
+   "anchorY": 98.79,
+   "ppm": 200
+  },
+  "table_yellow": {
+   "file": "sprites/props/table_yellow.png",
+   "w": 196,
+   "h": 206,
+   "anchorX": 97,
+   "anchorY": 153.53,
+   "ppm": 200
+  },
+  "table_yellow_long": {
+   "file": "sprites/props/table_yellow_long.png",
+   "w": 164,
+   "h": 304,
+   "anchorX": 82,
+   "anchorY": 200.71,
+   "ppm": 200
+  },
+  "tent_blue": {
+   "file": "sprites/props/tent_blue.png",
+   "w": 476,
+   "h": 454,
+   "anchorX": 237.33,
+   "anchorY": 338.82,
+   "ppm": 200
+  },
+  "tent_green": {
+   "file": "sprites/props/tent_green.png",
+   "w": 476,
+   "h": 454,
+   "anchorX": 237.33,
+   "anchorY": 338.82,
+   "ppm": 200
+  },
+  "tent_orange": {
+   "file": "sprites/props/tent_orange.png",
+   "w": 476,
+   "h": 454,
+   "anchorX": 237.33,
+   "anchorY": 338.82,
+   "ppm": 200
+  },
+  "tiki_torch": {
+   "file": "sprites/props/tiki_torch.png",
+   "w": 156,
+   "h": 280,
+   "anchorX": 77.5,
+   "anchorY": 251.99,
+   "ppm": 200
+  },
+  "traffic_cone": {
+   "file": "sprites/props/traffic_cone.png",
+   "w": 104,
+   "h": 134,
+   "anchorX": 52,
+   "anchorY": 92.01,
+   "ppm": 200
+  },
+  "trash_can": {
+   "file": "sprites/props/trash_can.png",
+   "w": 146,
+   "h": 228,
+   "anchorX": 72.48,
+   "anchorY": 190.48,
+   "ppm": 200
+  },
+  "tuft_a": {
+   "file": "sprites/props/tuft_a.svg",
+   "w": 160,
+   "h": 150,
+   "anchorX": 80,
+   "anchorY": 130,
+   "ppm": 200
+  },
+  "tuft_b": {
+   "file": "sprites/props/tuft_b.svg",
+   "w": 140,
+   "h": 150,
+   "anchorX": 70,
+   "anchorY": 130,
+   "ppm": 200
+  },
+  "tv_crt": {
+   "file": "sprites/props/tv_crt.png",
+   "w": 208,
+   "h": 272,
+   "anchorX": 104,
+   "anchorY": 223.9,
+   "ppm": 200
+  },
+  "tyre_stack_red": {
+   "file": "sprites/props/tyre_stack_red.png",
+   "w": 146,
+   "h": 244,
+   "anchorX": 72.3,
+   "anchorY": 184.46,
+   "ppm": 200
+  },
+  "tyre_stack_white": {
+   "file": "sprites/props/tyre_stack_white.png",
+   "w": 146,
+   "h": 244,
+   "anchorX": 72.3,
+   "anchorY": 184.46,
+   "ppm": 200
+  },
+  "umbrella": {
+   "file": "sprites/props/umbrella.png",
+   "w": 378,
+   "h": 514,
+   "anchorX": 188.78,
+   "anchorY": 504.23,
+   "ppm": 200
+  },
+  "vending_machine": {
+   "file": "sprites/props/vending_machine.png",
+   "w": 240,
+   "h": 410,
+   "anchorX": 120,
+   "anchorY": 347.19,
+   "ppm": 200
+  },
+  "warning_sign": {
+   "file": "sprites/props/warning_sign.png",
+   "w": 140,
+   "h": 432,
+   "anchorX": 54,
+   "anchorY": 412.21,
+   "ppm": 200
+  },
+  "wood_sign": {
+   "file": "sprites/props/wood_sign.png",
+   "w": 664,
+   "h": 398,
+   "anchorX": 317.27,
+   "anchorY": 392.13,
+   "ppm": 200
+  },
+  "wood_sign_campsites": {
+   "file": "sprites/props/wood_sign_campsites.png",
+   "w": 664,
+   "h": 398,
+   "anchorX": 317.27,
+   "anchorY": 392.13,
+   "ppm": 200
+  },
+  "wood_stove": {
+   "file": "sprites/props/wood_stove.png",
+   "w": 134,
+   "h": 520,
+   "anchorX": 66,
+   "anchorY": 468.35,
+   "ppm": 200
+  }
+ },
+ "atlases": {
+  "bear": {
+   "image": "sprites/chars/bear.png",
+   "json": "sprites/chars/bear.json",
+   "anchorX": 280,
+   "anchorY": 400,
+   "cellW": 560,
+   "cellH": 580,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "sleep": {
+     "frames": 2,
+     "fps": 0.7,
+     "dirs": 9
+    }
+   }
+  },
+  "bear_brown": {
+   "image": "sprites/chars/bear_brown.png",
+   "json": "sprites/chars/bear_brown.json",
+   "anchorX": 280,
+   "anchorY": 400,
+   "cellW": 560,
+   "cellH": 580,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "sleep": {
+     "frames": 2,
+     "fps": 0.7,
+     "dirs": 9
+    }
+   }
+  },
+  "bluejay": {
+   "image": "sprites/chars/bluejay.png",
+   "json": "sprites/chars/bluejay.json",
+   "anchorX": 220,
+   "anchorY": 240,
+   "cellW": 440,
+   "cellH": 360,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 2,
+     "fps": 1.5,
+     "dirs": 9
+    },
+    "hop": {
+     "frames": 4,
+     "fps": 10,
+     "dirs": 9
+    },
+    "fly": {
+     "frames": 4,
+     "fps": 12,
+     "dirs": 9
+    }
+   }
+  },
+  "bus": {
+   "image": "sprites/chars/bus.png",
+   "json": "sprites/chars/bus.json",
+   "anchorX": 764,
+   "anchorY": 892,
+   "cellW": 1528,
+   "cellH": 1446,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    7.14,
+    1.56
+   ]
+  },
+  "businessman": {
+   "image": "sprites/chars/businessman.png",
+   "json": "sprites/chars/businessman.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    }
+   }
+  },
+  "camper_a": {
+   "image": "sprites/chars/camper_a.png",
+   "json": "sprites/chars/camper_a.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sleep": {
+     "frames": 4,
+     "fps": 1.5,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "tackle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "camper_b": {
+   "image": "sprites/chars/camper_b.png",
+   "json": "sprites/chars/camper_b.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sleep": {
+     "frames": 4,
+     "fps": 1.5,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "tackle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "camper_blond": {
+   "image": "sprites/chars/camper_blond.png",
+   "json": "sprites/chars/camper_blond.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "camper_bluehat": {
+   "image": "sprites/chars/camper_bluehat.png",
+   "json": "sprites/chars/camper_bluehat.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "camper_c": {
+   "image": "sprites/chars/camper_c.png",
+   "json": "sprites/chars/camper_c.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sleep": {
+     "frames": 4,
+     "fps": 1.5,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "tackle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "camper_d": {
+   "image": "sprites/chars/camper_d.png",
+   "json": "sprites/chars/camper_d.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sleep": {
+     "frames": 4,
+     "fps": 1.5,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "tackle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "camper_redcap": {
+   "image": "sprites/chars/camper_redcap.png",
+   "json": "sprites/chars/camper_redcap.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "car_compact_blue": {
+   "image": "sprites/chars/car_compact_blue.png",
+   "json": "sprites/chars/car_compact_blue.json",
+   "anchorX": 279,
+   "anchorY": 350,
+   "cellW": 558,
+   "cellH": 537,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    2.5,
+    1.29
+   ]
+  },
+  "car_compact_cyan": {
+   "image": "sprites/chars/car_compact_cyan.png",
+   "json": "sprites/chars/car_compact_cyan.json",
+   "anchorX": 279,
+   "anchorY": 350,
+   "cellW": 558,
+   "cellH": 537,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    2.5,
+    1.29
+   ]
+  },
+  "car_compact_magenta": {
+   "image": "sprites/chars/car_compact_magenta.png",
+   "json": "sprites/chars/car_compact_magenta.json",
+   "anchorX": 279,
+   "anchorY": 350,
+   "cellW": 558,
+   "cellH": 537,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    2.5,
+    1.29
+   ]
+  },
+  "car_pickup_brown": {
+   "image": "sprites/chars/car_pickup_brown.png",
+   "json": "sprites/chars/car_pickup_brown.json",
+   "anchorX": 416,
+   "anchorY": 429,
+   "cellW": 832,
+   "cellH": 726,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.8,
+    1.56
+   ]
+  },
+  "car_pickup_cyan": {
+   "image": "sprites/chars/car_pickup_cyan.png",
+   "json": "sprites/chars/car_pickup_cyan.json",
+   "anchorX": 416,
+   "anchorY": 429,
+   "cellW": 832,
+   "cellH": 726,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.8,
+    1.56
+   ]
+  },
+  "car_pickup_grey": {
+   "image": "sprites/chars/car_pickup_grey.png",
+   "json": "sprites/chars/car_pickup_grey.json",
+   "anchorX": 416,
+   "anchorY": 429,
+   "cellW": 832,
+   "cellH": 726,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.8,
+    1.56
+   ]
+  },
+  "car_pickup_olive": {
+   "image": "sprites/chars/car_pickup_olive.png",
+   "json": "sprites/chars/car_pickup_olive.json",
+   "anchorX": 416,
+   "anchorY": 429,
+   "cellW": 832,
+   "cellH": 726,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.8,
+    1.56
+   ]
+  },
+  "car_pickup_red": {
+   "image": "sprites/chars/car_pickup_red.png",
+   "json": "sprites/chars/car_pickup_red.json",
+   "anchorX": 416,
+   "anchorY": 429,
+   "cellW": 832,
+   "cellH": 726,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.8,
+    1.56
+   ]
+  },
+  "car_pickup_white": {
+   "image": "sprites/chars/car_pickup_white.png",
+   "json": "sprites/chars/car_pickup_white.json",
+   "anchorX": 416,
+   "anchorY": 429,
+   "cellW": 832,
+   "cellH": 726,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.8,
+    1.56
+   ]
+  },
+  "car_sedan_black": {
+   "image": "sprites/chars/car_sedan_black.png",
+   "json": "sprites/chars/car_sedan_black.json",
+   "anchorX": 346,
+   "anchorY": 407,
+   "cellW": 692,
+   "cellH": 662,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.14,
+    1.3
+   ]
+  },
+  "car_sedan_lime": {
+   "image": "sprites/chars/car_sedan_lime.png",
+   "json": "sprites/chars/car_sedan_lime.json",
+   "anchorX": 294,
+   "anchorY": 312,
+   "cellW": 588,
+   "cellH": 511,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    2.66,
+    1.29
+   ]
+  },
+  "car_sedan_orange": {
+   "image": "sprites/chars/car_sedan_orange.png",
+   "json": "sprites/chars/car_sedan_orange.json",
+   "anchorX": 346,
+   "anchorY": 367,
+   "cellW": 692,
+   "cellH": 622,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.14,
+    1.3
+   ]
+  },
+  "car_sedan_purple": {
+   "image": "sprites/chars/car_sedan_purple.png",
+   "json": "sprites/chars/car_sedan_purple.json",
+   "anchorX": 294,
+   "anchorY": 312,
+   "cellW": 588,
+   "cellH": 511,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    2.66,
+    1.29
+   ]
+  },
+  "car_sedan_teal": {
+   "image": "sprites/chars/car_sedan_teal.png",
+   "json": "sprites/chars/car_sedan_teal.json",
+   "anchorX": 346,
+   "anchorY": 367,
+   "cellW": 692,
+   "cellH": 622,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.14,
+    1.3
+   ]
+  },
+  "car_sedan_white": {
+   "image": "sprites/chars/car_sedan_white.png",
+   "json": "sprites/chars/car_sedan_white.json",
+   "anchorX": 346,
+   "anchorY": 367,
+   "cellW": 692,
+   "cellH": 622,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.14,
+    1.3
+   ]
+  },
+  "car_sedan_yellow": {
+   "image": "sprites/chars/car_sedan_yellow.png",
+   "json": "sprites/chars/car_sedan_yellow.json",
+   "anchorX": 346,
+   "anchorY": 367,
+   "cellW": 692,
+   "cellH": 622,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.14,
+    1.3
+   ]
+  },
+  "car_sports_black": {
+   "image": "sprites/chars/car_sports_black.png",
+   "json": "sprites/chars/car_sports_black.json",
+   "anchorX": 406,
+   "anchorY": 453,
+   "cellW": 812,
+   "cellH": 741,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.74,
+    1.46
+   ]
+  },
+  "car_sports_red": {
+   "image": "sprites/chars/car_sports_red.png",
+   "json": "sprites/chars/car_sports_red.json",
+   "anchorX": 406,
+   "anchorY": 453,
+   "cellW": 812,
+   "cellH": 741,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.74,
+    1.46
+   ]
+  },
+  "duck": {
+   "image": "sprites/chars/duck.png",
+   "json": "sprites/chars/duck.json",
+   "anchorX": 140,
+   "anchorY": 210,
+   "cellW": 280,
+   "cellH": 280,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 12,
+     "dirs": 9
+    }
+   }
+  },
+  "duck_hat": {
+   "image": "sprites/chars/duck_hat.png",
+   "json": "sprites/chars/duck_hat.json",
+   "anchorX": 170,
+   "anchorY": 240,
+   "cellW": 340,
+   "cellH": 340,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 12,
+     "dirs": 9
+    }
+   }
+  },
+  "fisher": {
+   "image": "sprites/chars/fisher.png",
+   "json": "sprites/chars/fisher.json",
+   "anchorX": 190,
+   "anchorY": 390,
+   "cellW": 380,
+   "cellH": 460,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "fox": {
+   "image": "sprites/chars/fox.png",
+   "json": "sprites/chars/fox.json",
+   "anchorX": 210,
+   "anchorY": 240,
+   "cellW": 420,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 12,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "greenhat": {
+   "image": "sprites/chars/greenhat.png",
+   "json": "sprites/chars/greenhat.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    }
+   }
+  },
+  "hiker": {
+   "image": "sprites/chars/hiker.png",
+   "json": "sprites/chars/hiker.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    }
+   }
+  },
+  "jeep_black": {
+   "image": "sprites/chars/jeep_black.png",
+   "json": "sprites/chars/jeep_black.json",
+   "anchorX": 373,
+   "anchorY": 450,
+   "cellW": 746,
+   "cellH": 710,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.45,
+    1.52
+   ]
+  },
+  "jeep_olive": {
+   "image": "sprites/chars/jeep_olive.png",
+   "json": "sprites/chars/jeep_olive.json",
+   "anchorX": 373,
+   "anchorY": 450,
+   "cellW": 746,
+   "cellH": 710,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.45,
+    1.52
+   ]
+  },
+  "jeep_ranger": {
+   "image": "sprites/chars/jeep_ranger.png",
+   "json": "sprites/chars/jeep_ranger.json",
+   "anchorX": 388,
+   "anchorY": 468,
+   "cellW": 776,
+   "cellH": 725,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.42,
+    1.58
+   ]
+  },
+  "kart": {
+   "image": "sprites/chars/kart.png",
+   "json": "sprites/chars/kart.json",
+   "anchorX": 195,
+   "anchorY": 215,
+   "cellW": 390,
+   "cellH": 359,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "seat": {
+    "back": 0.3,
+    "height": 0.24
+   },
+   "footprint": [
+    1.62,
+    1.22
+   ]
+  },
+  "kid_pink": {
+   "image": "sprites/chars/kid_pink.png",
+   "json": "sprites/chars/kid_pink.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "kid_radio": {
+   "image": "sprites/chars/kid_radio.png",
+   "json": "sprites/chars/kid_radio.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   }
+  },
+  "motorcycle_red": {
+   "image": "sprites/chars/motorcycle_red.png",
+   "json": "sprites/chars/motorcycle_red.json",
+   "anchorX": 203,
+   "anchorY": 246,
+   "cellW": 406,
+   "cellH": 381,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    2,
+    0.72
+   ]
+  },
+  "pack_blue": {
+   "image": "sprites/chars/pack_blue.png",
+   "json": "sprites/chars/pack_blue.json",
+   "anchorX": 280,
+   "anchorY": 352,
+   "cellW": 560,
+   "cellH": 440,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 12,
+     "dirs": 9
+    },
+    "sneak": {
+     "frames": 8,
+     "fps": 8,
+     "dirs": 9
+    },
+    "lying": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "drive": {
+     "frames": 2,
+     "fps": 3,
+     "dirs": 9
+    },
+    "get": {
+     "frames": 2,
+     "fps": 2,
+     "dirs": 9
+    }
+   },
+   "drive": {
+    "anchor": "seat",
+    "seatBack": 0.3,
+    "seatZ": 0.24,
+    "scale": 0.86,
+    "note": "drive frames are anchored at the kart seat point; draw at kart pos - heading*seatBack, z=seatZ, depth just above the kart (kart parts are already cut out)"
+   },
+   "get": {
+    "hand": {
+     "0": [
+      0.509,
+      -0.246,
+      1.532
+     ],
+     "1": [
+      0.564,
+      -0.033,
+      1.532
+     ],
+     "2": [
+      0.534,
+      0.186,
+      1.532
+     ],
+     "3": [
+      0.422,
+      0.376,
+      1.532
+     ],
+     "4": [
+      0.259,
+      0.511,
+      1.533
+     ],
+     "5": [
+      0.055,
+      0.577,
+      1.534
+     ],
+     "6": [
+      -0.161,
+      0.564,
+      1.534
+     ],
+     "7": [
+      -0.365,
+      0.46,
+      1.534
+     ],
+     "8": [
+      -0.513,
+      0.285,
+      1.534
+     ]
+    },
+    "note": "hand[dir] = palm centre of the raised hand in metres from the ground anchor (x east, y north, z up) for rendered dirs 0..8; mirrored dirs k=9..15 use hand[16-k] with x negated. Same in both frames (frame 1 is a slight breath)."
+   }
+  },
+  "pack_green": {
+   "image": "sprites/chars/pack_green.png",
+   "json": "sprites/chars/pack_green.json",
+   "anchorX": 280,
+   "anchorY": 352,
+   "cellW": 560,
+   "cellH": 440,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 12,
+     "dirs": 9
+    },
+    "sneak": {
+     "frames": 8,
+     "fps": 8,
+     "dirs": 9
+    },
+    "lying": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "drive": {
+     "frames": 2,
+     "fps": 3,
+     "dirs": 9
+    },
+    "get": {
+     "frames": 2,
+     "fps": 2,
+     "dirs": 9
+    }
+   },
+   "drive": {
+    "anchor": "seat",
+    "seatBack": 0.3,
+    "seatZ": 0.24,
+    "scale": 0.86,
+    "note": "drive frames are anchored at the kart seat point; draw at kart pos - heading*seatBack, z=seatZ, depth just above the kart (kart parts are already cut out)"
+   },
+   "get": {
+    "hand": {
+     "0": [
+      0.509,
+      -0.246,
+      1.532
+     ],
+     "1": [
+      0.564,
+      -0.033,
+      1.532
+     ],
+     "2": [
+      0.534,
+      0.186,
+      1.532
+     ],
+     "3": [
+      0.422,
+      0.376,
+      1.532
+     ],
+     "4": [
+      0.259,
+      0.511,
+      1.533
+     ],
+     "5": [
+      0.055,
+      0.577,
+      1.534
+     ],
+     "6": [
+      -0.161,
+      0.564,
+      1.534
+     ],
+     "7": [
+      -0.365,
+      0.46,
+      1.534
+     ],
+     "8": [
+      -0.513,
+      0.285,
+      1.534
+     ]
+    },
+    "note": "hand[dir] = palm centre of the raised hand in metres from the ground anchor (x east, y north, z up) for rendered dirs 0..8; mirrored dirs k=9..15 use hand[16-k] with x negated. Same in both frames (frame 1 is a slight breath)."
+   }
+  },
+  "pack_red": {
+   "image": "sprites/chars/pack_red.png",
+   "json": "sprites/chars/pack_red.json",
+   "anchorX": 280,
+   "anchorY": 352,
+   "cellW": 560,
+   "cellH": 440,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 12,
+     "dirs": 9
+    },
+    "sneak": {
+     "frames": 8,
+     "fps": 8,
+     "dirs": 9
+    },
+    "lying": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "drive": {
+     "frames": 2,
+     "fps": 3,
+     "dirs": 9
+    },
+    "get": {
+     "frames": 2,
+     "fps": 2,
+     "dirs": 9
+    }
+   },
+   "drive": {
+    "anchor": "seat",
+    "seatBack": 0.3,
+    "seatZ": 0.24,
+    "scale": 0.86,
+    "note": "drive frames are anchored at the kart seat point; draw at kart pos - heading*seatBack, z=seatZ, depth just above the kart (kart parts are already cut out)"
+   },
+   "get": {
+    "hand": {
+     "0": [
+      0.509,
+      -0.246,
+      1.532
+     ],
+     "1": [
+      0.564,
+      -0.033,
+      1.532
+     ],
+     "2": [
+      0.534,
+      0.186,
+      1.532
+     ],
+     "3": [
+      0.422,
+      0.376,
+      1.532
+     ],
+     "4": [
+      0.259,
+      0.511,
+      1.533
+     ],
+     "5": [
+      0.055,
+      0.577,
+      1.534
+     ],
+     "6": [
+      -0.161,
+      0.564,
+      1.534
+     ],
+     "7": [
+      -0.365,
+      0.46,
+      1.534
+     ],
+     "8": [
+      -0.513,
+      0.285,
+      1.534
+     ]
+    },
+    "note": "hand[dir] = palm centre of the raised hand in metres from the ground anchor (x east, y north, z up) for rendered dirs 0..8; mirrored dirs k=9..15 use hand[16-k] with x negated. Same in both frames (frame 1 is a slight breath)."
+   }
+  },
+  "raccoon": {
+   "image": "sprites/chars/raccoon.png",
+   "json": "sprites/chars/raccoon.json",
+   "anchorX": 180,
+   "anchorY": 220,
+   "cellW": 360,
+   "cellH": 340,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "sleep": {
+     "frames": 2,
+     "fps": 0.7,
+     "dirs": 9
+    }
+   }
+  },
+  "race_car_blue": {
+   "image": "sprites/chars/race_car_blue.png",
+   "json": "sprites/chars/race_car_blue.json",
+   "anchorX": 294,
+   "anchorY": 312,
+   "cellW": 588,
+   "cellH": 511,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    2.66,
+    1.29
+   ]
+  },
+  "race_car_pink": {
+   "image": "sprites/chars/race_car_pink.png",
+   "json": "sprites/chars/race_car_pink.json",
+   "anchorX": 294,
+   "anchorY": 312,
+   "cellW": 588,
+   "cellH": 511,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    2.66,
+    1.29
+   ]
+  },
+  "race_car_purple": {
+   "image": "sprites/chars/race_car_purple.png",
+   "json": "sprites/chars/race_car_purple.json",
+   "anchorX": 294,
+   "anchorY": 312,
+   "cellW": 588,
+   "cellH": 511,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    2.66,
+    1.29
+   ]
+  },
+  "ranger": {
+   "image": "sprites/chars/ranger.png",
+   "json": "sprites/chars/ranger.json",
+   "anchorX": 200,
+   "anchorY": 350,
+   "cellW": 400,
+   "cellH": 460,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sleep": {
+     "frames": 4,
+     "fps": 1.5,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "tackle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "sleepBed": {
+     "frames": 2,
+     "fps": 0.8,
+     "dirs": 9
+    }
+   }
+  },
+  "reader": {
+   "image": "sprites/chars/reader.png",
+   "json": "sprites/chars/reader.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    },
+    "sit": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "read": {
+     "frames": 2,
+     "fps": 0.5,
+     "dirs": 9
+    }
+   }
+  },
+  "rv_guy": {
+   "image": "sprites/chars/rv_guy.png",
+   "json": "sprites/chars/rv_guy.json",
+   "anchorX": 160,
+   "anchorY": 330,
+   "cellW": 320,
+   "cellH": 400,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 10,
+     "dirs": 9
+    },
+    "run": {
+     "frames": 8,
+     "fps": 14,
+     "dirs": 9
+    }
+   }
+  },
+  "sasquatch": {
+   "image": "sprites/chars/sasquatch.png",
+   "json": "sprites/chars/sasquatch.json",
+   "anchorX": 280,
+   "anchorY": 352,
+   "cellW": 560,
+   "cellH": 440,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 4,
+     "fps": 2,
+     "dirs": 9
+    },
+    "walk": {
+     "frames": 8,
+     "fps": 12,
+     "dirs": 9
+    },
+    "sneak": {
+     "frames": 8,
+     "fps": 8,
+     "dirs": 9
+    },
+    "lying": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    },
+    "drive": {
+     "frames": 2,
+     "fps": 3,
+     "dirs": 9
+    },
+    "get": {
+     "frames": 2,
+     "fps": 2,
+     "dirs": 9
+    }
+   },
+   "drive": {
+    "anchor": "seat",
+    "seatBack": 0.3,
+    "seatZ": 0.24,
+    "scale": 0.86,
+    "note": "drive frames are anchored at the kart seat point; draw at kart pos - heading*seatBack, z=seatZ, depth just above the kart (kart parts are already cut out)"
+   },
+   "get": {
+    "hand": {
+     "0": [
+      0.509,
+      -0.246,
+      1.532
+     ],
+     "1": [
+      0.564,
+      -0.033,
+      1.532
+     ],
+     "2": [
+      0.534,
+      0.186,
+      1.532
+     ],
+     "3": [
+      0.422,
+      0.376,
+      1.532
+     ],
+     "4": [
+      0.259,
+      0.511,
+      1.533
+     ],
+     "5": [
+      0.055,
+      0.577,
+      1.534
+     ],
+     "6": [
+      -0.161,
+      0.564,
+      1.534
+     ],
+     "7": [
+      -0.365,
+      0.46,
+      1.534
+     ],
+     "8": [
+      -0.513,
+      0.285,
+      1.534
+     ]
+    },
+    "note": "hand[dir] = palm centre of the raised hand in metres from the ground anchor (x east, y north, z up) for rendered dirs 0..8; mirrored dirs k=9..15 use hand[16-k] with x negated. Same in both frames (frame 1 is a slight breath)."
+   }
+  },
+  "truck_box_white": {
+   "image": "sprites/chars/truck_box_white.png",
+   "json": "sprites/chars/truck_box_white.json",
+   "anchorX": 578,
+   "anchorY": 788,
+   "cellW": 1156,
+   "cellH": 1216,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    5.44,
+    1.88
+   ]
+  },
+  "van_olive": {
+   "image": "sprites/chars/van_olive.png",
+   "json": "sprites/chars/van_olive.json",
+   "anchorX": 421,
+   "anchorY": 576,
+   "cellW": 842,
+   "cellH": 883,
+   "ppm": 200,
+   "anims": {
+    "idle": {
+     "frames": 1,
+     "fps": 1,
+     "dirs": 9
+    }
+   },
+   "footprint": [
+    3.82,
+    1.62
+   ]
+  }
+ },
+ "svgs": {
+  "ui_backpack_blue": {
+   "file": "ui/backpack_blue.svg",
+   "w": 256,
+   "h": 360
+  },
+  "ui_backpack_green": {
+   "file": "ui/backpack_green.svg",
+   "w": 256,
+   "h": 360
+  },
+  "ui_backpack_red": {
+   "file": "ui/backpack_red.svg",
+   "w": 256,
+   "h": 360
+  },
+  "ui_bed": {
+   "file": "ui/bed.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_close": {
+   "file": "ui/close.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_coin": {
+   "file": "ui/coin.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_door": {
+   "file": "ui/door.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_ear": {
+   "file": "ui/ear.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_exclaim": {
+   "file": "ui/exclaim.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_eye": {
+   "file": "ui/eye.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_foot": {
+   "file": "ui/foot.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_fork": {
+   "file": "ui/fork.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_forktab": {
+   "file": "ui/forktab.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_fox": {
+   "file": "ui/fox.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_fuel": {
+   "file": "ui/fuel.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_hand": {
+   "file": "ui/hand.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_hide": {
+   "file": "ui/hide.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_lock": {
+   "file": "ui/lock.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_question": {
+   "file": "ui/question.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_rocket": {
+   "file": "ui/rocket.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_talk": {
+   "file": "ui/talk.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_wheel": {
+   "file": "ui/wheel.svg",
+   "w": 256,
+   "h": 256
+  },
+  "ui_zzz": {
+   "file": "ui/zzz.svg",
+   "w": 256,
+   "h": 256
+  },
+  "cu_arm_fur": {
+   "file": "closeup/arm_fur.svg",
+   "w": 200,
+   "h": 1000
+  },
+  "cu_bag_mouth": {
+   "file": "closeup/bag_mouth.svg",
+   "w": 700,
+   "h": 560
+  },
+  "cu_cache_body": {
+   "file": "closeup/cache_body.svg",
+   "w": 1100,
+   "h": 900
+  },
+  "cu_cache_lid": {
+   "file": "closeup/cache_lid.svg",
+   "w": 1100,
+   "h": 400
+  },
+  "cu_cooler_body": {
+   "file": "closeup/cooler_body.svg",
+   "w": 1100,
+   "h": 900
+  },
+  "cu_cooler_lid_closed": {
+   "file": "closeup/cooler_lid_closed.svg",
+   "w": 1100,
+   "h": 900
+  },
+  "cu_cooler_lid_open": {
+   "file": "closeup/cooler_lid_open.svg",
+   "w": 1100,
+   "h": 300
+  },
+  "cu_eat_table": {
+   "file": "closeup/eat_table.svg",
+   "w": 3024,
+   "h": 615
+  },
+  "cu_foodbox_body": {
+   "file": "closeup/foodbox_body.svg",
+   "w": 1100,
+   "h": 900
+  },
+  "cu_foodbox_lid": {
+   "file": "closeup/foodbox_lid.svg",
+   "w": 1100,
+   "h": 400
+  },
+  "cu_fridge_body": {
+   "file": "closeup/fridge_body.svg",
+   "w": 1486,
+   "h": 1980
+  },
+  "cu_fridge_door": {
+   "file": "closeup/fridge_door.svg",
+   "w": 1474,
+   "h": 1880
+  },
+  "cu_fridge_door_open": {
+   "file": "closeup/fridge_door_open.svg",
+   "w": 202,
+   "h": 1820
+  },
+  "cu_fridge_shelves": {
+   "file": "closeup/fridge_shelves.svg",
+   "w": 1350,
+   "h": 1167
+  },
+  "cu_hand_grab": {
+   "file": "closeup/hand_grab.svg",
+   "w": 300,
+   "h": 340
+  },
+  "cu_hand_open": {
+   "file": "closeup/hand_open.svg",
+   "w": 300,
+   "h": 340
+  },
+  "cu_item_chips": {
+   "file": "closeup/item_chips.svg",
+   "w": 200,
+   "h": 240
+  },
+  "cu_item_coinBag": {
+   "file": "closeup/item_coinBag.svg",
+   "w": 200,
+   "h": 220
+  },
+  "cu_item_hotdog": {
+   "file": "closeup/item_hotdog.svg",
+   "w": 260,
+   "h": 120
+  },
+  "cu_item_ketchup": {
+   "file": "closeup/item_ketchup.svg",
+   "w": 140,
+   "h": 300
+  },
+  "cu_item_orange": {
+   "file": "closeup/item_orange.svg",
+   "w": 150,
+   "h": 150
+  },
+  "cu_item_pepper": {
+   "file": "closeup/item_pepper.svg",
+   "w": 140,
+   "h": 200
+  },
+  "cu_item_pickles": {
+   "file": "closeup/item_pickles.svg",
+   "w": 180,
+   "h": 240
+  },
+  "cu_item_sandwich": {
+   "file": "closeup/item_sandwich.svg",
+   "w": 240,
+   "h": 180
+  },
+  "cu_item_smores": {
+   "file": "closeup/item_smores.svg",
+   "w": 200,
+   "h": 160
+  },
+  "cu_item_soda": {
+   "file": "closeup/item_soda.svg",
+   "w": 140,
+   "h": 220
+  },
+  "cu_item_sodaOrange": {
+   "file": "closeup/item_sodaOrange.svg",
+   "w": 140,
+   "h": 220
+  },
+  "cu_item_steak": {
+   "file": "closeup/item_steak.svg",
+   "w": 240,
+   "h": 170
+  },
+  "cu_item_stinkyFood": {
+   "file": "closeup/item_stinkyFood.svg",
+   "w": 220,
+   "h": 160
+  },
+  "cu_item_water": {
+   "file": "closeup/item_water.svg",
+   "w": 120,
+   "h": 300
+  },
+  "cu_item_watermelon": {
+   "file": "closeup/item_watermelon.svg",
+   "w": 240,
+   "h": 150
+  },
+  "cu_lostdog_card": {
+   "file": "closeup/lostdog_card.svg",
+   "w": 1232,
+   "h": 1591
+  },
+  "cu_newsbox_body": {
+   "file": "closeup/newsbox_body.svg",
+   "w": 1264,
+   "h": 1830
+  },
+  "cu_newsbox_glass": {
+   "file": "closeup/newsbox_glass.svg",
+   "w": 1020,
+   "h": 580
+  },
+  "cu_newspaper_card": {
+   "file": "closeup/newspaper_card.svg",
+   "w": 2196,
+   "h": 1517
+  },
+  "cu_pack_dump_blue": {
+   "file": "closeup/pack_dump_blue.svg",
+   "w": 600,
+   "h": 620
+  },
+  "cu_pack_dump_green": {
+   "file": "closeup/pack_dump_green.svg",
+   "w": 600,
+   "h": 620
+  },
+  "cu_pack_dump_red": {
+   "file": "closeup/pack_dump_red.svg",
+   "w": 600,
+   "h": 620
+  },
+  "cu_payphone_body": {
+   "file": "closeup/payphone_body.svg",
+   "w": 1414,
+   "h": 1844
+  },
+  "cu_payphone_cord": {
+   "file": "closeup/payphone_cord.svg",
+   "w": 420,
+   "h": 1385
+  },
+  "cu_payphone_handset": {
+   "file": "closeup/payphone_handset.svg",
+   "w": 420,
+   "h": 1220
+  },
+  "cu_payphone_lever": {
+   "file": "closeup/payphone_lever.svg",
+   "w": 340,
+   "h": 126
+  },
+  "cu_radio_antenna": {
+   "file": "closeup/radio_antenna.svg",
+   "w": 60,
+   "h": 866
+  },
+  "cu_radio_body": {
+   "file": "closeup/radio_body.svg",
+   "w": 1110,
+   "h": 720
+  },
+  "cu_radio_knob": {
+   "file": "closeup/radio_knob.svg",
+   "w": 152,
+   "h": 136
+  },
+  "cu_radio_note_0": {
+   "file": "closeup/radio_note_0.svg",
+   "w": 90,
+   "h": 130
+  },
+  "cu_radio_note_1": {
+   "file": "closeup/radio_note_1.svg",
+   "w": 130,
+   "h": 130
+  },
+  "cu_splat_0": {
+   "file": "closeup/splat_0.svg",
+   "w": 140,
+   "h": 140
+  },
+  "cu_splat_1": {
+   "file": "closeup/splat_1.svg",
+   "w": 140,
+   "h": 140
+  },
+  "cu_splat_2": {
+   "file": "closeup/splat_2.svg",
+   "w": 140,
+   "h": 140
+  },
+  "cu_splat_3": {
+   "file": "closeup/splat_3.svg",
+   "w": 140,
+   "h": 140
+  },
+  "cu_stove_body": {
+   "file": "closeup/stove_body.svg",
+   "w": 1432,
+   "h": 1606
+  },
+  "cu_stove_burner": {
+   "file": "closeup/stove_burner.svg",
+   "w": 500,
+   "h": 244
+  },
+  "cu_stove_door": {
+   "file": "closeup/stove_door.svg",
+   "w": 1421,
+   "h": 618
+  },
+  "cu_stove_door_open": {
+   "file": "closeup/stove_door_open.svg",
+   "w": 1421,
+   "h": 308
+  },
+  "cu_stove_flame_0": {
+   "file": "closeup/stove_flame_0.svg",
+   "w": 500,
+   "h": 244
+  },
+  "cu_stove_flame_1": {
+   "file": "closeup/stove_flame_1.svg",
+   "w": 500,
+   "h": 244
+  },
+  "cu_stove_grate": {
+   "file": "closeup/stove_grate.svg",
+   "w": 500,
+   "h": 244
+  },
+  "cu_stove_knob": {
+   "file": "closeup/stove_knob.svg",
+   "w": 120,
+   "h": 120
+  },
+  "cu_stove_oven": {
+   "file": "closeup/stove_oven.svg",
+   "w": 1421,
+   "h": 618
+  },
+  "cu_stove_smoke": {
+   "file": "closeup/stove_smoke.svg",
+   "w": 200,
+   "h": 520
+  },
+  "cu_trash_body": {
+   "file": "closeup/trash_body.svg",
+   "w": 1100,
+   "h": 900
+  },
+  "cu_trash_lid": {
+   "file": "closeup/trash_lid.svg",
+   "w": 1100,
+   "h": 400
+  },
+  "cu_tv_antenna": {
+   "file": "closeup/tv_antenna.svg",
+   "w": 52,
+   "h": 852
+  },
+  "cu_tv_body": {
+   "file": "closeup/tv_body.svg",
+   "w": 2280,
+   "h": 1782
+  },
+  "cu_tv_dial": {
+   "file": "closeup/tv_dial.svg",
+   "w": 222,
+   "h": 222
+  },
+  "cu_tv_knob": {
+   "file": "closeup/tv_knob.svg",
+   "w": 100,
+   "h": 100
+  },
+  "cu_tv_screen_anchor": {
+   "file": "closeup/tv_screen_anchor.svg",
+   "w": 1630,
+   "h": 1222
+  },
+  "cu_tv_screen_news": {
+   "file": "closeup/tv_screen_news.svg",
+   "w": 1630,
+   "h": 1222
+  },
+  "cu_tv_static_0": {
+   "file": "closeup/tv_static_0.svg",
+   "w": 1630,
+   "h": 1222
+  },
+  "cu_tv_static_1": {
+   "file": "closeup/tv_static_1.svg",
+   "w": 1630,
+   "h": 1222
+  },
+  "cu_tv_static_2": {
+   "file": "closeup/tv_static_2.svg",
+   "w": 1630,
+   "h": 1222
+  },
+  "cu_tv_ticker": {
+   "file": "closeup/tv_ticker.svg",
+   "w": 2531,
+   "h": 76
+  },
+  "cu_vending_body": {
+   "file": "closeup/vending_body.svg",
+   "w": 1662,
+   "h": 1980
+  },
+  "cu_vending_button": {
+   "file": "closeup/vending_button.svg",
+   "w": 415,
+   "h": 183
+  },
+  "cu_vending_button_down": {
+   "file": "closeup/vending_button_down.svg",
+   "w": 415,
+   "h": 183
+  },
+  "cu_vending_tray": {
+   "file": "closeup/vending_tray.svg",
+   "w": 1046,
+   "h": 330
+  }
+ },
+ "images": {
+  "cu_eat_body_closed": "closeup/eat_body_closed.png",
+  "cu_eat_body_open": "closeup/eat_body_open.png",
+  "grass_tile": "images/grass_tile.svg"
+ },
+ "audio": {
+  "sfx_alarm": "audio/sfx_alarm.wav",
+  "sfx_backpack": "audio/sfx_backpack.wav",
+  "sfx_bed": "audio/sfx_bed.wav",
+  "sfx_bush": "audio/sfx_bush.wav",
+  "sfx_chomp": "audio/sfx_chomp.wav",
+  "sfx_click": "audio/sfx_click.wav",
+  "sfx_close": "audio/sfx_close.wav",
+  "sfx_coins": "audio/sfx_coins.wav",
+  "sfx_door": "audio/sfx_door.wav",
+  "sfx_drop": "audio/sfx_drop.wav",
+  "sfx_grab": "audio/sfx_grab.wav",
+  "sfx_hey": "audio/sfx_hey.wav",
+  "sfx_lid": "audio/sfx_lid.wav",
+  "sfx_open": "audio/sfx_open.wav",
+  "sfx_ranger_danger": "audio/sfx_ranger_danger.wav",
+  "sfx_squirt": "audio/sfx_squirt.wav",
+  "sfx_stash": "audio/sfx_stash.wav",
+  "sfx_step": "audio/sfx_step.wav",
+  "sfx_tackle": "audio/sfx_tackle.wav",
+  "sfx_talk": "audio/sfx_talk.wav",
+  "sfx_think": "audio/sfx_think.wav",
+  "sfx_tick": "audio/sfx_tick.wav"
+ },
+ "json": {
+  "cu_eat_body": "closeup/eat_body.json",
+  "cu_fridge": "closeup/fridge.json",
+  "cu_lost_dog": "closeup/lost_dog.json",
+  "cu_newspaper": "closeup/newspaper.json",
+  "cu_newspaper_box": "closeup/newspaper_box.json",
+  "cu_payphone": "closeup/payphone.json",
+  "cu_radio": "closeup/radio.json",
+  "cu_stove": "closeup/stove.json",
+  "cu_tv": "closeup/tv.json",
+  "cu_vending": "closeup/vending.json"
+ }
+}

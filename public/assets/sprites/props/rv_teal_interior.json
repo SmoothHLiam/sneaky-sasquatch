@@ -1,0 +1,50 @@
+{
+ "w": 1670,
+ "h": 678,
+ "anchorX": 834.0,
+ "anchorY": 528.64,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  8.3,
+  1.72
+ ],
+ "anchor_note": "same anchor as rv_teal (footprint centre)",
+ "layer": "interior",
+ "floorZ": 0.8,
+ "walk": {
+  "x0": -4.0,
+  "x1": 2.46,
+  "y0": -0.72,
+  "y1": 0.75
+ },
+ "furniture": {
+  "bed": [
+   -3.19,
+   0.05
+  ],
+  "table": [
+   -1.36,
+   0.47
+  ],
+  "counter": [
+   0.625,
+   0.47
+  ],
+  "fridge": [
+   2.0,
+   0.47
+  ]
+ },
+ "hat_spot_m": [
+  -1.25,
+  0.5,
+  1.85
+ ],
+ "door": {
+  "x0": -0.3,
+  "x1": 0.57,
+  "y": -0.86
+ },
+ "note": "roof off over the living area (x < 2.46); cab kept; back wall full height, west wall cut diagonally; floor at z 0.80"
+}

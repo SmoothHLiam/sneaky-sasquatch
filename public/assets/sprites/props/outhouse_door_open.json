@@ -1,0 +1,14 @@
+{
+ "w": 378,
+ "h": 752,
+ "anchorX": 188.0,
+ "anchorY": 530.71,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  1.4,
+  1.4
+ ],
+ "blocksSight": true,
+ "note": "door swung open to the right"
+}

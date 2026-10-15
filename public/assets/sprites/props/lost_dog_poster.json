@@ -1,0 +1,18 @@
+{
+ "w": 82,
+ "h": 148,
+ "anchorX": 40.12,
+ "anchorY": 211.05,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.0,
+  0.0
+ ],
+ "blocksSight": false,
+ "decal": true,
+ "z0": 0.85,
+ "z1": 1.88,
+ "sortY": -0.25,
+ "note": "origin = power-pole axis on the ground; draw just in front of power_pole"
+}

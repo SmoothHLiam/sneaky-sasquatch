@@ -1,0 +1,16 @@
+{
+ "w": 144,
+ "h": 406,
+ "anchorX": 196.71,
+ "anchorY": 236.39,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  8.3,
+  1.72
+ ],
+ "anchor_note": "same anchor as rv_teal (footprint centre)",
+ "layer": "door",
+ "sortY": -1.31,
+ "note": "door swung out ~137 deg on the doorway west edge (x -0.30)"
+}

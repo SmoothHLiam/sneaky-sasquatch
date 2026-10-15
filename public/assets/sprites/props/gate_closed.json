@@ -1,0 +1,14 @@
+{
+ "w": 96,
+ "h": 664,
+ "anchorX": 47.0,
+ "anchorY": 244.35,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.45,
+  0.45
+ ],
+ "blocksSight": false,
+ "note": "arm swung CLOSED towards -y (3.6 m) onto gate_post"
+}

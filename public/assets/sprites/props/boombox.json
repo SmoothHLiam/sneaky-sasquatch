@@ -1,0 +1,15 @@
+{
+ "w": 92,
+ "h": 104,
+ "anchorX": 45.0,
+ "anchorY": 87.83,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.41,
+  0.14
+ ],
+ "blocksSight": false,
+ "height": 0.64,
+ "note": "radio alone; sits on boombox_post at restZ 0.77 (y offset +0.06)"
+}

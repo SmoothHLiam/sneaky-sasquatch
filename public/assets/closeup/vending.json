@@ -1,0 +1,161 @@
+{
+ "ref": [
+  3024,
+  1898
+ ],
+ "notes": "Blue vending machine (t0595.0). Each price button buys its row (A/B/C) for 5 coins: swap to downKey while held, deduct 5 (counter flashes red while counting), then the front item of that row falls (gravity, ~0.5 s) from its slot to tray.itemY and lands BEHIND the tray part (drawn after items) - it shows through the translucent cover; the player drags it out of tray.hit to the bag. Items are the shared item sprites (item_soda, item_chips, new item_sodaOrange); slot.h is the display height of the svg in ref px (keep aspect). Not enough coins: shake the button.",
+ "parts": {
+  "body": {
+   "key": "cu_vending_body",
+   "x": 1501,
+   "y": 950,
+   "w": 1662,
+   "h": 1980
+  },
+  "tray": {
+   "key": "cu_vending_tray",
+   "x": 1257,
+   "y": 1501,
+   "w": 1046,
+   "h": 330,
+   "hit": [
+    736,
+    1338,
+    1778,
+    1663
+   ]
+  },
+  "button0": {
+   "key": "cu_vending_button",
+   "x": 2051.5,
+   "y": 253.5,
+   "w": 415,
+   "h": 183,
+   "hit": [
+    1846,
+    164,
+    2257,
+    343
+   ],
+   "row": "A",
+   "price": 5,
+   "downKey": "cu_vending_button_down"
+  },
+  "button1": {
+   "key": "cu_vending_button",
+   "x": 2051.5,
+   "y": 617.5,
+   "w": 415,
+   "h": 183,
+   "hit": [
+    1846,
+    528,
+    2257,
+    707
+   ],
+   "row": "B",
+   "price": 5,
+   "downKey": "cu_vending_button_down"
+  },
+  "button2": {
+   "key": "cu_vending_button",
+   "x": 2051.5,
+   "y": 981.5,
+   "w": 415,
+   "h": 183,
+   "hit": [
+    1846,
+    892,
+    2257,
+    1071
+   ],
+   "row": "C",
+   "price": 5,
+   "downKey": "cu_vending_button_down"
+  }
+ },
+ "order": [
+  "body",
+  "(slot items)",
+  "(dropped item)",
+  "tray",
+  "button0",
+  "button1",
+  "button2"
+ ],
+ "slots": [
+  {
+   "row": "A",
+   "col": 0,
+   "x": 1055,
+   "y": 192,
+   "item": "sodaOrange",
+   "key": "cu_item_sodaOrange",
+   "h": 251
+  },
+  {
+   "row": "A",
+   "col": 1,
+   "x": 1468,
+   "y": 192,
+   "item": "sodaOrange",
+   "key": "cu_item_sodaOrange",
+   "h": 251
+  },
+  {
+   "row": "B",
+   "col": 0,
+   "x": 1055,
+   "y": 586,
+   "item": "soda",
+   "key": "cu_item_soda",
+   "h": 251
+  },
+  {
+   "row": "B",
+   "col": 1,
+   "x": 1468,
+   "y": 586,
+   "item": "soda",
+   "key": "cu_item_soda",
+   "h": 251
+  },
+  {
+   "row": "C",
+   "col": 0,
+   "x": 1055,
+   "y": 951,
+   "item": "chips",
+   "key": "cu_item_chips",
+   "h": 481
+  },
+  {
+   "row": "C",
+   "col": 1,
+   "x": 1468,
+   "y": 951,
+   "item": "chips",
+   "key": "cu_item_chips",
+   "h": 481
+  }
+ ],
+ "tray": {
+  "rect": [
+   736,
+   1338,
+   1778,
+   1663
+  ],
+  "itemY": 1490,
+  "dropX": [
+   1150,
+   1300
+  ]
+ },
+ "coinSlot": [
+  1884,
+  1426,
+  2060,
+  1572
+ ]
+}

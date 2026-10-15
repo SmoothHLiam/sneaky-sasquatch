@@ -1,0 +1,26 @@
+{
+ "ref": [
+  3024,
+  1898
+ ],
+ "notes": "LOST DOG poster (820-830 s). The white card slides up from the bottom (from y+1600 to its spot, ~0.35 s ease-out) and slides back down on close. The number 555-5678 is the payphone quest number.",
+ "parts": {
+  "card": {
+   "key": "cu_lostdog_card",
+   "x": 1512,
+   "y": 953.5,
+   "w": 1232,
+   "h": 1591,
+   "hit": [
+    900,
+    162,
+    2124,
+    1745
+   ]
+  }
+ },
+ "order": [
+  "card"
+ ],
+ "phone": "555-5678"
+}

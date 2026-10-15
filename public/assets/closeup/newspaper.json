@@ -1,0 +1,38 @@
+{
+ "ref": [
+  3024,
+  1898
+ ],
+ "notes": "Readable newspaper card (t0068.9). Slides up from below the frame on open (~0.3 s ease-out) and back down on close; the X button closes. The game draws the day number in slots.day: fontFamily/fontSize (ref px, multiply by L.s), left-aligned with its pen at x and its baseline at y=baseline (cap top at capTop); scaleX is the horizontal stretch used for \"DAY\".",
+ "parts": {
+  "card": {
+   "key": "cu_newspaper_card",
+   "x": 1494,
+   "y": 986.5,
+   "w": 2196,
+   "h": 1517,
+   "hit": [
+    400,
+    232,
+    2588,
+    1678
+   ]
+  }
+ },
+ "order": [
+  "card"
+ ],
+ "slots": {
+  "day": {
+   "x": 587.52,
+   "baseline": 414,
+   "capTop": 372,
+   "fontSize": 64.66,
+   "scaleX": 0.99,
+   "fontFamily": "Bree Serif",
+   "color": "#313131",
+   "align": "left",
+   "sample": "3"
+  }
+ }
+}

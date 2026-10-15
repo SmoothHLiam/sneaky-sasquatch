@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- gas-pump glyph for the kart fuel gauge (outside-park §4.1) -->
+  <rect x="58" y="40" width="104" height="176" rx="14" fill="#ffffff"/>
+  <rect x="44" y="204" width="132" height="24" rx="8" fill="#ffffff"/>
+  <rect x="76" y="62" width="68" height="50" rx="6" fill="#2b2b2b"/>
+  <path d="M162 84 L188 102 L188 176 C188 190 210 190 210 176 L210 112 L196 92" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

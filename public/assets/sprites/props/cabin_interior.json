@@ -1,0 +1,13 @@
+{
+ "w": 662,
+ "h": 822,
+ "anchorX": 331.0,
+ "anchorY": 596.5,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  3.27,
+  2.8
+ ],
+ "layer": "interior"
+}

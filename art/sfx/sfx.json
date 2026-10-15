@@ -1,0 +1,244 @@
+{
+  "title": "Sneaky Sasquatch SFX",
+  "out": "../../public/assets/audio",
+  "defaults": {
+    "sample_size": 16,
+    "sound_vol": 0.2
+  },
+  "sounds": [
+    {
+      "name": "sfx_click",
+      "preset": "blipSelect",
+      "set": {
+        "p_env_decay": 0.08,
+        "p_base_freq": 0.5
+      },
+      "sound_vol": 0.16
+    },
+    {
+      "name": "sfx_talk",
+      "preset": "tone",
+      "set": {
+        "p_env_attack": 0,
+        "p_env_sustain": 0.07,
+        "p_env_decay": 0.12,
+        "p_base_freq": 0.42,
+        "p_duty": 0.3,
+        "wave_type": 0
+      },
+      "sound_vol": 0.12
+    },
+    {
+      "name": "sfx_backpack",
+      "preset": "click",
+      "set": {
+        "p_base_freq": 0.18,
+        "p_env_sustain": 0.08,
+        "p_env_decay": 0.18,
+        "p_hpf_freq": 0.05,
+        "p_lpf_freq": 0.5,
+        "wave_type": 3
+      }
+    },
+    {
+      "name": "sfx_open",
+      "preset": "powerUp",
+      "set": {
+        "p_env_decay": 0.2,
+        "p_base_freq": 0.3,
+        "p_freq_ramp": 0.18
+      },
+      "sound_vol": 0.15
+    },
+    {
+      "name": "sfx_lid",
+      "preset": "hitHurt",
+      "set": {
+        "p_base_freq": 0.25,
+        "p_env_decay": 0.15,
+        "p_lpf_freq": 0.55,
+        "wave_type": 3
+      }
+    },
+    {
+      "name": "sfx_grab",
+      "preset": "click",
+      "set": {
+        "p_base_freq": 0.35,
+        "p_env_decay": 0.06,
+        "p_hpf_freq": 0.15,
+        "wave_type": 3
+      },
+      "sound_vol": 0.15
+    },
+    {
+      "name": "sfx_stash",
+      "preset": "pickupCoin",
+      "set": {
+        "p_base_freq": 0.38,
+        "p_env_decay": 0.18
+      },
+      "sound_vol": 0.15
+    },
+    {
+      "name": "sfx_drop",
+      "preset": "hitHurt",
+      "set": {
+        "p_base_freq": 0.18,
+        "p_env_decay": 0.12,
+        "p_lpf_freq": 0.45
+      },
+      "sound_vol": 0.15
+    },
+    {
+      "name": "sfx_chomp",
+      "preset": "hitHurt",
+      "set": {
+        "p_base_freq": 0.3,
+        "p_env_decay": 0.1,
+        "p_repeat_speed": 0.55,
+        "p_lpf_freq": 0.6,
+        "wave_type": 3
+      }
+    },
+    {
+      "name": "sfx_squirt",
+      "preset": "laserShoot",
+      "set": {
+        "p_base_freq": 0.55,
+        "p_env_decay": 0.22,
+        "p_lpf_freq": 0.55,
+        "wave_type": 3
+      },
+      "sound_vol": 0.14
+    },
+    {
+      "name": "sfx_door",
+      "preset": "click",
+      "set": {
+        "p_base_freq": 0.12,
+        "p_env_decay": 0.16,
+        "p_lpf_freq": 0.4,
+        "wave_type": 3
+      }
+    },
+    {
+      "name": "sfx_bush",
+      "preset": "click",
+      "set": {
+        "p_base_freq": 0.45,
+        "p_env_sustain": 0.12,
+        "p_env_decay": 0.25,
+        "p_hpf_freq": 0.25,
+        "p_lpf_freq": 0.7,
+        "wave_type": 3
+      },
+      "sound_vol": 0.12
+    },
+    {
+      "name": "sfx_alarm",
+      "preset": "powerUp",
+      "set": {
+        "p_base_freq": 0.45,
+        "p_freq_ramp": 0.25,
+        "p_env_decay": 0.25,
+        "p_arp_mod": 0.4
+      }
+    },
+    {
+      "name": "sfx_ranger_danger",
+      "preset": "tone",
+      "set": {
+        "p_base_freq": 0.4,
+        "p_env_sustain": 0.35,
+        "p_env_decay": 0.3,
+        "p_vib_strength": 0.5,
+        "p_vib_speed": 0.55,
+        "p_duty": 0.45,
+        "wave_type": 0
+      },
+      "sound_vol": 0.16
+    },
+    {
+      "name": "sfx_tackle",
+      "preset": "hitHurt",
+      "set": {
+        "p_env_punch": 0.6,
+        "p_base_freq": 0.2,
+        "p_env_decay": 0.3
+      }
+    },
+    {
+      "name": "sfx_hey",
+      "preset": "blipSelect",
+      "set": {
+        "p_base_freq": 0.42,
+        "p_arp_mod": 0.45,
+        "p_env_decay": 0.18
+      },
+      "sound_vol": 0.15
+    },
+    {
+      "name": "sfx_think",
+      "preset": "powerUp",
+      "set": {
+        "p_base_freq": 0.35,
+        "p_freq_ramp": 0.12,
+        "p_env_decay": 0.35,
+        "p_vib_strength": 0.25,
+        "p_vib_speed": 0.4,
+        "wave_type": 2
+      },
+      "sound_vol": 0.16
+    },
+    {
+      "name": "sfx_bed",
+      "preset": "powerUp",
+      "set": {
+        "p_base_freq": 0.4,
+        "p_freq_ramp": -0.15,
+        "p_env_sustain": 0.2,
+        "p_env_decay": 0.5,
+        "wave_type": 2
+      },
+      "sound_vol": 0.15
+    },
+    {
+      "name": "sfx_tick",
+      "preset": "blipSelect",
+      "set": {
+        "p_base_freq": 0.3,
+        "p_env_decay": 0.05
+      },
+      "sound_vol": 0.14
+    },
+    {
+      "name": "sfx_coins",
+      "preset": "pickupCoin",
+      "set": {
+        "p_arp_mod": 0.45
+      }
+    },
+    {
+      "name": "sfx_close",
+      "preset": "blipSelect",
+      "set": {
+        "p_base_freq": 0.45,
+        "p_arp_mod": -0.35,
+        "p_env_decay": 0.1
+      },
+      "sound_vol": 0.15
+    },
+    {
+      "name": "sfx_step",
+      "preset": "click",
+      "set": {
+        "p_base_freq": 0.12,
+        "p_env_decay": 0.09,
+        "p_hpf_freq": 0.2,
+        "wave_type": 3
+      },
+      "sound_vol": 0.08
+    }
+  ]
+}

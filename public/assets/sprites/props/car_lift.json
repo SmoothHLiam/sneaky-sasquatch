@@ -1,0 +1,29 @@
+{
+ "w": 696,
+ "h": 752,
+ "anchorX": 347.0,
+ "anchorY": 625.91,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  3.35,
+  0.5
+ ],
+ "blocksSight": false,
+ "height": 4.75,
+ "posts": [
+  [
+   -1.455,
+   0.0
+  ],
+  [
+   1.455,
+   0.0
+  ]
+ ],
+ "post_size": [
+  0.44,
+  0.47
+ ],
+ "note": "two red posts 2.91 m apart (centres), yellow arms + pads on the floor; cars drive through along y; collide with the posts only"
+}

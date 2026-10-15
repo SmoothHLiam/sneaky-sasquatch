@@ -1,0 +1,15 @@
+{
+ "w": 172,
+ "h": 340,
+ "anchorX": 86.0,
+ "anchorY": 309.96,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.82,
+  0.4
+ ],
+ "blocksSight": false,
+ "height": 2.28,
+ "note": "stands with its back ~0.25 m off the partition in the original (top only 0.32 deep)"
+}

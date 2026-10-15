@@ -1,0 +1,14 @@
+{
+ "w": 760,
+ "h": 666,
+ "anchorX": 420.0,
+ "anchorY": 520.51,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  3.36,
+  1.57
+ ],
+ "blocksSight": true,
+ "note": "camper trailer, hitch at -x, door on the -y side"
+}

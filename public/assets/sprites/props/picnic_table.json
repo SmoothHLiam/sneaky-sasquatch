@@ -1,0 +1,14 @@
+{
+ "w": 358,
+ "h": 322,
+ "anchorX": 178.0,
+ "anchorY": 203.27,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  1.75,
+  1.35
+ ],
+ "blocksSight": false,
+ "note": "long axis N-S (benches on the east/west sides) as in every still"
+}

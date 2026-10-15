@@ -1,0 +1,25 @@
+{
+ "w": 546,
+ "h": 494,
+ "anchorX": 272.0,
+ "anchorY": 493.82,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.7,
+  0.2
+ ],
+ "blocksSight": false,
+ "height": 3.85,
+ "posts": [
+  [
+   -0.79,
+   0.06
+  ],
+  [
+   0.79,
+   0.06
+  ]
+ ],
+ "note": "collide with the two posts; panels 1.2-3.64 m up"
+}

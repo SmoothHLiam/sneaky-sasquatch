@@ -1,0 +1,16 @@
+{
+ "w": 2620,
+ "h": 80,
+ "anchorX": 1310.0,
+ "anchorY": -413.64,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  13.06,
+  6.2
+ ],
+ "anchor_note": "all customs_* layers share this anchor (centre of the wall bbox)",
+ "layer": "interior_front",
+ "sortY": -3.1,
+ "note": "front wall cut 0.32 m; open bay + door gaps"
+}

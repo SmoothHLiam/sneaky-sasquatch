@@ -1,0 +1,21 @@
+{
+ "w": 1284,
+ "h": 1440,
+ "anchorX": 641.52,
+ "anchorY": 1235.31,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  6.0,
+  1.4
+ ],
+ "blocksSight": true,
+ "tile_x": 6.0,
+ "height": 7.2,
+ "entrance": {
+  "x0": -1.15,
+  "x1": 1.15,
+  "y": -0.6
+ },
+ "note": "walk-in trigger at the opening; colliders = the two cliff parts either side"
+}

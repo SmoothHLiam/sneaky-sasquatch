@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Bree Serif';
+    src: url('assets/fonts/BreeSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* logo font (title screen): Montserrat italic variable, OFL */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('assets/fonts/Montserrat-Italic-VF.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: block;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+    /* the original Mac build shows a small white triangle cursor */
+    cursor: default;
+}
+
+#app, #game-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#game-container canvas {
+    display: block;
+}

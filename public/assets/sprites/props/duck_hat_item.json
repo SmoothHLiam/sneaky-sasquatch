@@ -1,0 +1,20 @@
+{
+ "w": 148,
+ "h": 116,
+ "anchorX": 85.02,
+ "anchorY": 282.05,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.6,
+  0.55
+ ],
+ "blocksSight": false,
+ "pickup": true,
+ "restZ": 1.85,
+ "rvOffset_m": [
+  -1.25,
+  0.5
+ ],
+ "note": "rendered resting on the RV table (1.85 m up; origin = floor point below it). Place at rv_teal anchor + rvOffset_m and sort just after rv_teal_interior"
+}

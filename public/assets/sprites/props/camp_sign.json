@@ -1,0 +1,22 @@
+{
+ "w": 144,
+ "h": 326,
+ "anchorX": 71.5,
+ "anchorY": 307.99,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.3,
+  0.3
+ ],
+ "blocksSight": false,
+ "plaque": {
+  "centre_m": [
+   0,
+   -0.17,
+   1.77
+  ],
+  "w": 0.675,
+  "h_screen_m": 0.51
+ }
+}

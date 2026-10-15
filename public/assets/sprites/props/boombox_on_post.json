@@ -1,0 +1,14 @@
+{
+ "w": 144,
+ "h": 238,
+ "anchorX": 71.0,
+ "anchorY": 192.1,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.67,
+  0.66
+ ],
+ "blocksSight": false,
+ "note": "stand + radio combined (site D)"
+}

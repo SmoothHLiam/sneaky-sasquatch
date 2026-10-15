@@ -1,0 +1,23 @@
+{
+ "w": 208,
+ "h": 272,
+ "anchorX": 104.0,
+ "anchorY": 223.9,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  1.0,
+  0.56
+ ],
+ "blocksSight": false,
+ "height": 1.73,
+ "screen": {
+  "centre_m": [
+   -0.115,
+   -0.225,
+   0.84
+  ],
+  "w": 0.57,
+  "h": 0.54
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "w": 4552,
+ "h": 2338,
+ "anchorX": 2275.0,
+ "anchorY": 1585.77,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  22.71,
+  9.01
+ ],
+ "anchor_note": "all dealership_* layers share this anchor (centre of the wall bbox)",
+ "blocksSight": true,
+ "layer": "exterior",
+ "height": 7.08,
+ "colliders": [
+  {
+   "x0": -11.355,
+   "x1": 11.355,
+   "y0": -4.505,
+   "y1": 4.505
+  },
+  {
+   "x0": 1.955,
+   "x1": 7.455,
+   "y0": -4.735,
+   "y1": -4.505
+  }
+ ],
+ "door": {
+  "x0": 3.455,
+  "x1": 4.405,
+  "y": -4.505,
+  "hinge": "west jamb, opens outward (south)"
+ },
+ "roofProps": [
+  {
+   "key": "ac_unit",
+   "pos": [
+    6.725,
+    -2.555
+   ],
+   "z": 6.75
+  },
+  {
+   "key": "roof_vent",
+   "pos": [
+    6.695,
+    1.845
+   ],
+   "z": 6.75
+  }
+ ],
+ "note": "22.7 m showroom: 3 big windows + red portal with the white chevron + 1 window east; interior floor/plinths/furniture are baked in behind the see-through glass"
+}

@@ -1,0 +1,78 @@
+{
+ "w": 2520,
+ "h": 1512,
+ "anchorX": 1259.0,
+ "anchorY": 1026.22,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  12.55,
+  6.05
+ ],
+ "anchor_note": "all garage_* layers share this anchor (centre of the wall bbox)",
+ "blocksSight": true,
+ "layer": "exterior",
+ "height": 5.75,
+ "colliders": [
+  {
+   "x0": -6.275,
+   "x1": 3.725,
+   "y0": -3.025,
+   "y1": 3.025
+  },
+  {
+   "x0": 3.725,
+   "x1": 6.275,
+   "y0": -1.185,
+   "y1": 3.025
+  }
+ ],
+ "bays": {
+  "west": {
+   "x0": -5.655,
+   "x1": -1.825,
+   "y": -3.025,
+   "state": "closed roll-up door"
+  },
+  "east": {
+   "x0": -1.455,
+   "x1": 2.375,
+   "y": -3.025,
+   "state": "open - the walk/drive-in entrance"
+  }
+ },
+ "door": {
+  "x0": 4.495,
+  "x1": 5.375,
+  "y": -1.185,
+  "hinge": "west jamb, opens outward",
+  "note": "annex side door where the mechanic stands"
+ },
+ "roofProps": [
+  {
+   "key": "ac_unit",
+   "pos": [
+    -0.125,
+    -0.975
+   ],
+   "z": 4.11
+  },
+  {
+   "key": "roof_vent",
+   "pos": [
+    -4.895,
+    -2.075
+   ],
+   "z": 4.11
+  },
+  {
+   "key": "roof_vent",
+   "pos": [
+    2.675,
+    0.575
+   ],
+   "z": 4.11
+  }
+ ],
+ "note": "teal garage, 2 bays (west closed, east open showing the lift), red GARAGE wrench banner on the roof, east annex set back 1.84 m with the side door and a light shed roof"
+}

@@ -1,0 +1,15 @@
+{
+ "w": 120,
+ "h": 428,
+ "anchorX": 59.0,
+ "anchorY": 269.96,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.55,
+  2.0
+ ],
+ "blocksSight": false,
+ "height": 0.88,
+ "note": "sofa facing west, back against an east wall"
+}

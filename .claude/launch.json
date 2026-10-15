@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sneaky-sasquatch",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev-nolog"],
+      "port": 8080
+    }
+  ]
+}

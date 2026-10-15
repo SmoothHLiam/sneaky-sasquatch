@@ -1,0 +1,31 @@
+{
+ "w": 148,
+ "h": 1198,
+ "anchorX": 96.0,
+ "anchorY": 1156.61,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.5,
+  0.5
+ ],
+ "blocksSight": false,
+ "height": 8.6,
+ "wires_m": [
+  [
+   -0.345,
+   0.48,
+   8.57
+  ],
+  [
+   -0.345,
+   -0.99,
+   8.57
+  ]
+ ],
+ "note": "cross-arm runs N-S on the pole west side; wires_m = insulator tops [x, y, z] from the anchor (screen offset px = (x*200, -(y*0.788 + z*0.616)*200))",
+ "poster": {
+  "z0": 0.85,
+  "z1": 1.88
+ }
+}

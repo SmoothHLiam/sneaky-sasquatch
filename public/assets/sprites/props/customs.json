@@ -1,0 +1,55 @@
+{
+ "w": 2622,
+ "h": 1778,
+ "anchorX": 1310.0,
+ "anchorY": 1281.84,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  13.06,
+  6.2
+ ],
+ "anchor_note": "all customs_* layers share this anchor (centre of the wall bbox)",
+ "blocksSight": true,
+ "layer": "exterior",
+ "height": 6.41,
+ "colliders": [
+  {
+   "x0": -6.53,
+   "x1": 6.53,
+   "y0": -3.1,
+   "y1": 3.1
+  }
+ ],
+ "door": {
+  "x0": 2.34,
+  "x1": 3.26,
+  "y": -3.1,
+  "hinge": "west jamb, opens outward"
+ },
+ "bay": {
+  "x0": -5.66,
+  "x1": -1.66,
+  "y": -3.1,
+  "state": "open"
+ },
+ "roofProps": [
+  {
+   "key": "ac_unit",
+   "pos": [
+    4.37,
+    -0.1
+   ],
+   "z": 6.11
+  },
+  {
+   "key": "roof_vent",
+   "pos": [
+    0.67,
+    1.5
+   ],
+   "z": 6.11
+  }
+ ],
+ "note": "corrugated grey: west work bay wing (5.4 m tall, open bay with a lift) + showroom block (6.4 m) with an orange stripe, \"Automotive CUSTOMS\" sign and a 5-pane window with the door; roof AC/vent positions are guesses (roof only seen partly)"
+}

@@ -1,0 +1,64 @@
+{
+ "ref": [
+  3024,
+  1898
+ ],
+ "notes": "White newspaper box front (designed from the world sprite; the footage never shows its close-up: tapping the box went straight to the newspaper card). Draw cu_newspaper_card behind the body at paper.x/y with paper.scale (it is clipped by the window cut-out), then the glass overlay. Tapping the window, handle or coin slot opens the newspaper close-up (newspaper.json). Viewing was free in the footage despite \"1 COIN\".",
+ "parts": {
+  "body": {
+   "key": "cu_newsbox_body",
+   "x": 1512,
+   "y": 1025,
+   "w": 1264,
+   "h": 1830,
+   "hit": [
+    902,
+    120,
+    2122,
+    1730
+   ]
+  },
+  "glass": {
+   "key": "cu_newsbox_glass",
+   "x": 1512,
+   "y": 810,
+   "w": 1020,
+   "h": 580,
+   "hit": [
+    1002,
+    520,
+    2022,
+    1100
+   ]
+  }
+ },
+ "order": [
+  "(newspaper_card at paper)",
+  "body",
+  "glass"
+ ],
+ "paper": {
+  "key": "cu_newspaper_card",
+  "x": 1512,
+  "y": 872.8,
+  "scale": 0.44,
+  "window": [
+   1002,
+   520,
+   2022,
+   1100
+  ]
+ },
+ "coinSlot": [
+  1730,
+  170,
+  2030,
+  320
+ ],
+ "handle": [
+  1262,
+  1200,
+  1762,
+  1270
+ ]
+}

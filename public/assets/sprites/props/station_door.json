@@ -1,0 +1,16 @@
+{
+ "w": 176,
+ "h": 260,
+ "anchorX": 202.0,
+ "anchorY": -378.32,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  8.01,
+  7.91
+ ],
+ "anchor_note": "all station_* layers share this anchor (centre of the wall bbox)",
+ "layer": "door",
+ "sortY": -3.955,
+ "note": "front door leaf closed (full height) - draw over the cut front wall"
+}

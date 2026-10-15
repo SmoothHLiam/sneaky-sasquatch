@@ -1,0 +1,15 @@
+{
+ "w": 148,
+ "h": 458,
+ "anchorX": 74.0,
+ "anchorY": 444.22,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.3,
+  0.3
+ ],
+ "blocksSight": false,
+ "height": 3.46,
+ "note": "\"Highway Intersection\" stop: the game shows a \"?\" / bus button above it; stand south of it to open the Bus Route menu"
+}

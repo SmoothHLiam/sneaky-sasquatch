@@ -1,0 +1,29 @@
+{
+ "w": 302,
+ "h": 558,
+ "anchorX": 150.0,
+ "anchorY": 543.32,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.3,
+  0.3
+ ],
+ "blocksSight": false,
+ "height": 4.22,
+ "housing_m": {
+  "w": 1.46,
+  "z0": 3.04,
+  "z1": 4.22
+ },
+ "lamps": {
+  "red_off_z": 3.84,
+  "green_on_z": 3.33,
+  "x": [
+   -0.47,
+   0.0,
+   0.47
+  ]
+ },
+ "note": "one pole either side of the grid; housing centred on the pole"
+}

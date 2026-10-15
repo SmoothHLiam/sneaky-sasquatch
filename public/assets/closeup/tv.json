@@ -1,0 +1,209 @@
+{
+ "ref": [
+  3024,
+  1898
+ ],
+ "notes": "CRT TV (t0637.0). Antennas: two instances of cu_tv_antenna rotating about their pivots (still: -27 / +27 deg; dragged out to about -80 / +80 at 644 s); hit = within capsule.r of the rod, capsule.len px from the pivot. Dial (channel, 9 stops, 36 deg apart; still angle -16) and VOLUME / POWER knobs rotate about their pivots. Dragging an antenna or the dial gives static: show a static frame over the channel screen (cycle tv_static_0..2 every ~70 ms) at alpha 0.5..1 depending on how far off-tune; full static while dragging (643 s). POWER off: hide the screen part (the body shows a dark screen). Screens: tv_screen_news (title card) and tv_screen_anchor (newscaster); both have the LIVE tag, bottom NEWS tab, clock and an empty ticker bar: scroll slots.ticker.key (text outlines, loops seamlessly every w px) right-to-left inside slots.ticker.rect (geometry mask), top at rect[1].",
+ "parts": {
+  "body": {
+   "key": "cu_tv_body",
+   "x": 1520,
+   "y": 979,
+   "w": 2280,
+   "h": 1782,
+   "hit": [
+    386,
+    272,
+    2652,
+    1858
+   ]
+  },
+  "antennaL": {
+   "key": "cu_tv_antenna",
+   "x": 1439,
+   "y": -37,
+   "w": 52,
+   "h": 852,
+   "origin": [
+    0.5,
+    0.9695
+   ],
+   "pivot": [
+    1439,
+    363
+   ],
+   "angle": -27,
+   "capsule": {
+    "r": 60,
+    "len": 816
+   }
+  },
+  "antennaR": {
+   "key": "cu_tv_antenna",
+   "x": 1598,
+   "y": -37,
+   "w": 52,
+   "h": 852,
+   "origin": [
+    0.5,
+    0.9695
+   ],
+   "pivot": [
+    1598,
+    363
+   ],
+   "angle": 27,
+   "capsule": {
+    "r": 60,
+    "len": 816
+   }
+  },
+  "dial": {
+   "key": "cu_tv_dial",
+   "x": 2357,
+   "y": 798,
+   "w": 222,
+   "h": 222,
+   "origin": [
+    0.5023,
+    0.5
+   ],
+   "pivot": [
+    2357.5,
+    798
+   ],
+   "angle": -16,
+   "hit": {
+    "cx": 2357.5,
+    "cy": 790,
+    "r": 125
+   }
+  },
+  "volume": {
+   "key": "cu_tv_knob",
+   "x": 2251,
+   "y": 1627,
+   "w": 100,
+   "h": 100,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    2251,
+    1627
+   ],
+   "angle": -20,
+   "hit": {
+    "cx": 2251,
+    "cy": 1610,
+    "r": 62
+   }
+  },
+  "power": {
+   "key": "cu_tv_knob",
+   "x": 2466,
+   "y": 1627,
+   "w": 100,
+   "h": 100,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    2466,
+    1627
+   ],
+   "angle": -90,
+   "hit": {
+    "cx": 2466,
+    "cy": 1610,
+    "r": 62
+   }
+  },
+  "screenNews": {
+   "key": "cu_tv_screen_news",
+   "x": 1274,
+   "y": 1155,
+   "w": 1630,
+   "h": 1222
+  },
+  "screenAnchor": {
+   "key": "cu_tv_screen_anchor",
+   "x": 1274,
+   "y": 1155,
+   "w": 1630,
+   "h": 1222
+  },
+  "static0": {
+   "key": "cu_tv_static_0",
+   "x": 1274,
+   "y": 1155,
+   "w": 1630,
+   "h": 1222
+  },
+  "static1": {
+   "key": "cu_tv_static_1",
+   "x": 1274,
+   "y": 1155,
+   "w": 1630,
+   "h": 1222
+  },
+  "static2": {
+   "key": "cu_tv_static_2",
+   "x": 1274,
+   "y": 1155,
+   "w": 1630,
+   "h": 1222
+  }
+ },
+ "order": [
+  "body",
+  "antennaL",
+  "antennaR",
+  "screenNews",
+  "dial",
+  "volume",
+  "power"
+ ],
+ "states": {
+  "anchor": {
+   "screen": "screenAnchor"
+  },
+  "static": {
+   "overlay": [
+    "static0",
+    "static1",
+    "static2"
+   ]
+  },
+  "spread644": {
+   "antennaL": {
+    "angle": -80
+   },
+   "antennaR": {
+    "angle": 80
+   }
+  }
+ },
+ "slots": {
+  "ticker": {
+   "rect": [
+    459,
+    1690,
+    1845,
+    1766
+   ],
+   "key": "cu_tv_ticker",
+   "w": 2531,
+   "h": 76,
+   "speed": 220
+  }
+ },
+ "screen": [
+  459,
+  544,
+  2089,
+  1766
+ ]
+}

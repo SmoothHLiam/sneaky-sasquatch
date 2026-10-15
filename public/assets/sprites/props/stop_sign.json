@@ -1,0 +1,15 @@
+{
+ "w": 208,
+ "h": 456,
+ "anchorX": 104.0,
+ "anchorY": 450.18,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.25,
+  0.25
+ ],
+ "blocksSight": false,
+ "height": 3.47,
+ "note": "faces south (-y); the original octagon is blank (no STOP text)"
+}

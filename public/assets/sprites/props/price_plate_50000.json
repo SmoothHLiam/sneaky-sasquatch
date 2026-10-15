@@ -1,0 +1,15 @@
+{
+ "w": 358,
+ "h": 106,
+ "anchorX": 179.0,
+ "anchorY": 96.6,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  1.75,
+  0.1
+ ],
+ "blocksSight": false,
+ "height": 0.72,
+ "note": "dark plate #161616, gold text #b79431 + coin; stands at the plinth front-right corner"
+}

@@ -1,0 +1,16 @@
+{
+ "w": 1536,
+ "h": 90,
+ "anchorX": 767.0,
+ "anchorY": 173.42,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  8.01,
+  7.91
+ ],
+ "anchor_note": "all station_* layers share this anchor (centre of the wall bbox)",
+ "layer": "interior_mid",
+ "sortY": 0.565,
+ "note": "partition wall (cut 0.32 m) with door gap"
+}

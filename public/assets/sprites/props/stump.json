@@ -1,0 +1,13 @@
+{
+ "w": 108,
+ "h": 142,
+ "anchorX": 53.26,
+ "anchorY": 98.79,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.5,
+  0.5
+ ],
+ "blocksSight": false
+}

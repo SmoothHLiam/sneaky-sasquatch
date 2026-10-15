@@ -1,0 +1,16 @@
+{
+ "w": 194,
+ "h": 266,
+ "anchorX": -464.0,
+ "anchorY": -218.85,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  13.06,
+  6.2
+ ],
+ "anchor_note": "all customs_* layers share this anchor (centre of the wall bbox)",
+ "layer": "door",
+ "sortY": -3.1,
+ "note": "glass door closed"
+}

@@ -1,0 +1,14 @@
+{
+ "w": 464,
+ "h": 494,
+ "anchorX": 231.38,
+ "anchorY": 464.74,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.0,
+  0.4
+ ],
+ "blocksSight": false,
+ "note": "posts on concrete blocks at x=+-0.79; roof 2.2 m wide"
+}

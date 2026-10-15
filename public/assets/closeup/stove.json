@@ -1,0 +1,442 @@
+{
+ "ref": [
+  3024,
+  1898
+ ],
+ "notes": "White 4-burner range (t0476.0). Knobs: drag to rotate the pointer about its pivot; angle 0 = off (vertical bar), 90 = full (horizontal, t0476 knob 1), 45 = low (knob 2). knobs[i].controls names the burner; a burner is lit while its knob angle > ~15: show burner*_flame (alternate frames every ~0.12 s, scale 0.75..1 with the knob angle) between burner* (base) and burner*_grate. Oven: the door pulls down (drag down on its hit box): scaleY the closed door towards 0.5 about its bottom-centre pivot, then swap to door_open; the cavity sits behind. Food dropped on a lit burner burns: spawn cu_stove_smoke rising from the item (~200x520, rise 300 ref px, fade, every 0.4 s).",
+ "parts": {
+  "body": {
+   "key": "cu_stove_body",
+   "x": 1516,
+   "y": 1031,
+   "w": 1432,
+   "h": 1606,
+   "hit": [
+    806,
+    234,
+    2227,
+    1828
+   ]
+  },
+  "oven": {
+   "key": "cu_stove_oven",
+   "x": 1516.5,
+   "y": 1387,
+   "w": 1421,
+   "h": 618
+  },
+  "door": {
+   "key": "cu_stove_door",
+   "x": 1516.5,
+   "y": 1387,
+   "w": 1421,
+   "h": 618,
+   "origin": [
+    0.5,
+    1
+   ],
+   "pivot": [
+    1516.5,
+    1696
+   ],
+   "hit": [
+    806,
+    1080,
+    2227,
+    1694
+   ]
+  },
+  "doorOpen": {
+   "key": "cu_stove_door_open",
+   "x": 1516.5,
+   "y": 1542,
+   "w": 1421,
+   "h": 308,
+   "origin": [
+    0.5,
+    1
+   ],
+   "pivot": [
+    1516.5,
+    1696
+   ],
+   "hit": [
+    806,
+    1388,
+    2227,
+    1694
+   ]
+  },
+  "burnerTL": {
+   "key": "cu_stove_burner",
+   "x": 1199,
+   "y": 482,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1199,
+    482
+   ],
+   "hit": [
+    954,
+    365,
+    1444,
+    599
+   ]
+  },
+  "burnerTL_grate": {
+   "key": "cu_stove_grate",
+   "x": 1199,
+   "y": 482,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1199,
+    482
+   ]
+  },
+  "burnerTL_flame": {
+   "key": "cu_stove_flame_0",
+   "x": 1199,
+   "y": 482,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1199,
+    482
+   ],
+   "frames": [
+    "cu_stove_flame_0",
+    "cu_stove_flame_1"
+   ]
+  },
+  "burnerTR": {
+   "key": "cu_stove_burner",
+   "x": 1836,
+   "y": 482,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1836,
+    482
+   ],
+   "hit": [
+    1591,
+    365,
+    2081,
+    599
+   ]
+  },
+  "burnerTR_grate": {
+   "key": "cu_stove_grate",
+   "x": 1836,
+   "y": 482,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1836,
+    482
+   ]
+  },
+  "burnerTR_flame": {
+   "key": "cu_stove_flame_0",
+   "x": 1836,
+   "y": 482,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1836,
+    482
+   ],
+   "frames": [
+    "cu_stove_flame_0",
+    "cu_stove_flame_1"
+   ]
+  },
+  "burnerBL": {
+   "key": "cu_stove_burner",
+   "x": 1199,
+   "y": 737,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1199,
+    737
+   ],
+   "hit": [
+    954,
+    620,
+    1444,
+    854
+   ]
+  },
+  "burnerBL_grate": {
+   "key": "cu_stove_grate",
+   "x": 1199,
+   "y": 737,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1199,
+    737
+   ]
+  },
+  "burnerBL_flame": {
+   "key": "cu_stove_flame_0",
+   "x": 1199,
+   "y": 737,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1199,
+    737
+   ],
+   "frames": [
+    "cu_stove_flame_0",
+    "cu_stove_flame_1"
+   ]
+  },
+  "burnerBR": {
+   "key": "cu_stove_burner",
+   "x": 1836,
+   "y": 737,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1836,
+    737
+   ],
+   "hit": [
+    1591,
+    620,
+    2081,
+    854
+   ]
+  },
+  "burnerBR_grate": {
+   "key": "cu_stove_grate",
+   "x": 1836,
+   "y": 737,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1836,
+    737
+   ]
+  },
+  "burnerBR_flame": {
+   "key": "cu_stove_flame_0",
+   "x": 1836,
+   "y": 737,
+   "w": 500,
+   "h": 244,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1836,
+    737
+   ],
+   "frames": [
+    "cu_stove_flame_0",
+    "cu_stove_flame_1"
+   ]
+  },
+  "knob1": {
+   "key": "cu_stove_knob",
+   "x": 1030,
+   "y": 985,
+   "w": 120,
+   "h": 120,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1030,
+    985
+   ],
+   "angle": 0,
+   "hit": {
+    "cx": 1030,
+    "cy": 979,
+    "r": 72
+   },
+   "controls": "burnerTL"
+  },
+  "knob2": {
+   "key": "cu_stove_knob",
+   "x": 1247,
+   "y": 985,
+   "w": 120,
+   "h": 120,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1247,
+    985
+   ],
+   "angle": 0,
+   "hit": {
+    "cx": 1247,
+    "cy": 979,
+    "r": 72
+   },
+   "controls": "burnerBL"
+  },
+  "knob3": {
+   "key": "cu_stove_knob",
+   "x": 1522,
+   "y": 985,
+   "w": 120,
+   "h": 120,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1522,
+    985
+   ],
+   "angle": 0,
+   "hit": {
+    "cx": 1522,
+    "cy": 979,
+    "r": 72
+   },
+   "controls": "oven"
+  },
+  "knob4": {
+   "key": "cu_stove_knob",
+   "x": 1792,
+   "y": 985,
+   "w": 120,
+   "h": 120,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    1792,
+    985
+   ],
+   "angle": 0,
+   "hit": {
+    "cx": 1792,
+    "cy": 979,
+    "r": 72
+   },
+   "controls": "burnerTR"
+  },
+  "knob5": {
+   "key": "cu_stove_knob",
+   "x": 2010,
+   "y": 985,
+   "w": 120,
+   "h": 120,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "pivot": [
+    2010,
+    985
+   ],
+   "angle": 0,
+   "hit": {
+    "cx": 2010,
+    "cy": 979,
+    "r": 72
+   },
+   "controls": "burnerBR"
+  }
+ },
+ "order": [
+  "body",
+  "oven",
+  "door",
+  "burnerTL",
+  "burnerTL_grate",
+  "burnerTR",
+  "burnerTR_grate",
+  "burnerBL",
+  "burnerBL_grate",
+  "burnerBR",
+  "burnerBR_grate",
+  "knob1",
+  "knob2",
+  "knob3",
+  "knob4",
+  "knob5"
+ ],
+ "states": {
+  "lit": "burner X lit: draw burnerX_flame between burnerX and burnerX_grate",
+  "ovenOpen": "replace door with doorOpen (oven stays behind)",
+  "t0476": {
+   "knob1": {
+    "angle": 90
+   },
+   "knob2": {
+    "angle": 45
+   },
+   "lit": [
+    "burnerTL",
+    "burnerBL"
+   ]
+  }
+ },
+ "particles": {
+  "smoke": {
+   "key": "cu_stove_smoke",
+   "w": 200,
+   "h": 520
+  }
+ }
+}

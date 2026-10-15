@@ -1,0 +1,16 @@
+{
+ "w": 64,
+ "h": 420,
+ "anchorX": -885.34,
+ "anchorY": 88.67,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  12.55,
+  6.05
+ ],
+ "anchor_note": "all garage_* layers share this anchor (centre of the wall bbox)",
+ "layer": "door",
+ "sortY": -1.685,
+ "note": "side door swung 75 deg outward on the west jamb"
+}

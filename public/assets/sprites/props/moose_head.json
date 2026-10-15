@@ -1,0 +1,18 @@
+{
+ "w": 144,
+ "h": 226,
+ "anchorX": 71.91,
+ "anchorY": 322.14,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.62,
+  0.2
+ ],
+ "blocksSight": false,
+ "wallMounted": true,
+ "mountZ": 0.9,
+ "plaqueTopZ": 1.99,
+ "height": 2.45,
+ "note": "origin = floor point at the wall face below the plaque; place at the back wall"
+}

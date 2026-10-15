@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="200" viewBox="0 0 256 200">
+  <!-- fox head icon (objective banner / mischief toast, inside-park t0470, t0816): dark outline, orange face, cream cheeks -->
+  <path d="M30 12 L92 58 L164 58 L226 12 L218 96 C214 140 170 186 128 194 C86 186 42 140 38 96 Z" fill="#2a2420"/>
+  <path d="M44 34 L96 72 L160 72 L212 34 L204 98 C200 132 166 172 128 180 C90 172 56 132 52 98 Z" fill="#ef6a45"/>
+  <path d="M62 54 L92 78 L74 92 Z" fill="#c44a33"/>
+  <path d="M194 54 L164 78 L182 92 Z" fill="#c44a33"/>
+  <path d="M52 104 C78 112 104 128 128 158 C152 128 178 112 204 104 C200 136 168 172 128 180 C88 172 56 136 52 104 Z" fill="#f4e9d6"/>
+  <ellipse cx="96" cy="116" rx="9" ry="11" fill="#2a2420"/>
+  <ellipse cx="160" cy="116" rx="9" ry="11" fill="#2a2420"/>
+  <path d="M116 162 L140 162 L128 176 Z" fill="#2a2420"/>
+</svg>

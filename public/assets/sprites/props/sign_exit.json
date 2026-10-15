@@ -1,0 +1,23 @@
+{
+ "w": 646,
+ "h": 448,
+ "anchorX": 322.0,
+ "anchorY": 443.09,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.7,
+  0.3
+ ],
+ "blocksSight": false,
+ "height": 3.31,
+ "board": {
+  "centre_m": [
+   0,
+   -0.12,
+   2.485
+  ],
+  "w": 3.18,
+  "h": 1.03
+ }
+}

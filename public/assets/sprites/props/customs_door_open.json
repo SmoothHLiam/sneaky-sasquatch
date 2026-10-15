@@ -1,0 +1,16 @@
+{
+ "w": 82,
+ "h": 398,
+ "anchorX": -454.6,
+ "anchorY": -225.15,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  13.06,
+  6.2
+ ],
+ "anchor_note": "all customs_* layers share this anchor (centre of the wall bbox)",
+ "layer": "door",
+ "sortY": -3.6,
+ "note": "glass door swung 70 deg outward on the west jamb"
+}

@@ -1,0 +1,16 @@
+{
+ "w": 406,
+ "h": 214,
+ "anchorX": 210.0,
+ "anchorY": 182.84,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  1.91,
+  0.25
+ ],
+ "blocksSight": false,
+ "height": 1.45,
+ "tile_x": 1.91,
+ "note": "post at x=-L/2; tile bays every 1.91 m along x and cap with guard_rail_post"
+}

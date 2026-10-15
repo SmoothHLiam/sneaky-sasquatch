@@ -1,0 +1,15 @@
+{
+ "w": 200,
+ "h": 192,
+ "anchorX": 99.02,
+ "anchorY": 153.29,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.66,
+  0.44
+ ],
+ "blocksSight": false,
+ "height": 1.04,
+ "note": "mushroom roof vent; baked into the building roofs"
+}

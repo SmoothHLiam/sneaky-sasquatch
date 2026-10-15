@@ -1,0 +1,25 @@
+{
+ "w": 492,
+ "h": 472,
+ "anchorX": 245.0,
+ "anchorY": 344.78,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.8,
+  0.4
+ ],
+ "blocksSight": false,
+ "height": 2.55,
+ "slab": {
+  "w": 2.05,
+  "d": 1.18,
+  "h": 0.12,
+  "note": "walkable step; tan border 0.18 m is a decal"
+ },
+ "use_spot_m": [
+  0,
+  -0.8
+ ],
+ "note": "booth centred on the slab; player stands south of it"
+}

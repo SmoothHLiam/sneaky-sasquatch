@@ -1,0 +1,15 @@
+{
+ "w": 2128,
+ "h": 1924,
+ "anchorX": 1063.64,
+ "anchorY": 1147.12,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  10.6,
+  10.6
+ ],
+ "blocksSight": false,
+ "decal": true,
+ "note": "floor disc r=4.9 m; wall ring r 4.9-5.3, 2.5 m tall, open to the south (camera side); colliders: ring arc from -28 to 208 deg"
+}

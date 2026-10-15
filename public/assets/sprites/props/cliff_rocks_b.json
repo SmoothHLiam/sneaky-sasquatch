@@ -1,0 +1,16 @@
+{
+ "w": 1338,
+ "h": 1440,
+ "anchorX": 690.2,
+ "anchorY": 1235.31,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  6.0,
+  1.4
+ ],
+ "blocksSight": true,
+ "tile_x": 6.0,
+ "height": 7.2,
+ "note": "tile chunks along x every 6 m; collision band y -0.8..0.6"
+}

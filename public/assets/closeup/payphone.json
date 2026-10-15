@@ -1,0 +1,199 @@
+{
+ "ref": [
+  3024,
+  1898
+ ],
+ "notes": "Payphone (t0431.0, 428-450 / 832-858 s). Flow seen: coin into the blue slot (costs 1) -> display \"PICK UP\" -> lift the handset off the cradle -> \"PHONE\" -> digits as typed (\"555-5678\"; < deletes) -> \"CALLING\" above the number -> dialogue. Hang up by dropping the handset back on hookPos or pressing the lever. The handset is draggable (grab anywhere in hit); while it is off the hook hide cu_payphone_cord and draw the cord yourself as a sagging grey #a5a5a5 44 px wide curve from cordAnchor to the handset cordAttach (rotate/translate that point with the handset). Keys: flash a dark overlay (rgba(0,0,0,0.18)) on the key rect for ~0.12 s. Lever: rotate ~ +20 deg about its pivot while pressed. Display text is drawn by the game (slots.display).",
+ "parts": {
+  "body": {
+   "key": "cu_payphone_body",
+   "x": 1457,
+   "y": 1018,
+   "w": 1414,
+   "h": 1844
+  },
+  "cord": {
+   "key": "cu_payphone_cord",
+   "x": 990,
+   "y": 1232.5,
+   "w": 420,
+   "h": 1385
+  },
+  "handset": {
+   "key": "cu_payphone_handset",
+   "x": 1200,
+   "y": 1210,
+   "w": 420,
+   "h": 1220,
+   "origin": [
+    0.5,
+    0.4754
+   ],
+   "pivot": [
+    1200,
+    1180
+   ],
+   "hit": [
+    1000,
+    610,
+    1400,
+    1760
+   ],
+   "cordAttach": [
+    1173,
+    1808
+   ],
+   "hookPos": [
+    1200,
+    1180
+   ]
+  },
+  "lever": {
+   "key": "cu_payphone_lever",
+   "x": 1770,
+   "y": 463,
+   "w": 340,
+   "h": 126,
+   "origin": [
+    0.1853,
+    0.5
+   ],
+   "pivot": [
+    1663,
+    463
+   ],
+   "angle": 0,
+   "hit": [
+    1600,
+    400,
+    1940,
+    526
+   ]
+  }
+ },
+ "order": [
+  "body",
+  "cord",
+  "handset",
+  "lever"
+ ],
+ "coinSlot": {
+  "hit": [
+   1030,
+   383,
+   1295,
+   544
+  ],
+  "coinPos": [
+   1150,
+   463
+  ],
+  "coinR": 52
+ },
+ "cordAnchor": [
+  814,
+  556
+ ],
+ "keys": {
+  "0": [
+   1694,
+   1505,
+   1810,
+   1646
+  ],
+  "1": [
+   1535,
+   1010,
+   1651,
+   1151
+  ],
+  "2": [
+   1694,
+   1010,
+   1810,
+   1151
+  ],
+  "3": [
+   1851,
+   1010,
+   1967,
+   1151
+  ],
+  "4": [
+   1535,
+   1175,
+   1651,
+   1316
+  ],
+  "5": [
+   1694,
+   1175,
+   1810,
+   1316
+  ],
+  "6": [
+   1851,
+   1175,
+   1967,
+   1316
+  ],
+  "7": [
+   1535,
+   1340,
+   1651,
+   1481
+  ],
+  "8": [
+   1694,
+   1340,
+   1810,
+   1481
+  ],
+  "9": [
+   1851,
+   1340,
+   1967,
+   1481
+  ],
+  "*": [
+   1535,
+   1505,
+   1651,
+   1646
+  ],
+  "<": [
+   1851,
+   1505,
+   1967,
+   1646
+  ]
+ },
+ "slots": {
+  "display": {
+   "rect": [
+    1535,
+    779,
+    1966,
+    944
+   ],
+   "color": "#5bbff9",
+   "mainLine": {
+    "centerY": 875,
+    "capHeight": 56
+   },
+   "smallLine": {
+    "centerY": 812,
+    "capHeight": 14,
+    "sample": "- - -"
+   },
+   "fontFamily": "a 7-/14-segment LCD style monospace",
+   "samples": [
+    "COIN",
+    "PICK UP",
+    "PHONE",
+    "555-5678",
+    "CALLING"
+   ]
+  }
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "w": 418,
+ "h": 310,
+ "anchorX": 204.95,
+ "anchorY": 245.61,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.0,
+  0.75
+ ],
+ "blocksSight": true,
+ "height": 1.5,
+ "tile_x": 2.0,
+ "note": "1.5 m box hedge (blocks sight like a wall); tile every 2.0 m along x"
+}

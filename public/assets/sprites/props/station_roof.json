@@ -1,0 +1,14 @@
+{
+ "w": 1754,
+ "h": 1726,
+ "anchorX": 865.0,
+ "anchorY": 1358.47,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  8.01,
+  7.91
+ ],
+ "anchor_note": "all station_* layers share this anchor (centre of the wall bbox)",
+ "layer": "roof"
+}

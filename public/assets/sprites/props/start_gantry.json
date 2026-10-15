@@ -1,0 +1,30 @@
+{
+ "w": 1822,
+ "h": 752,
+ "anchorX": 910.0,
+ "anchorY": 728.61,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  9.06,
+  0.5
+ ],
+ "blocksSight": false,
+ "height": 5.68,
+ "towers": [
+  [
+   -3.875,
+   0.0
+  ],
+  [
+   3.875,
+   0.0
+  ]
+ ],
+ "tower_size": [
+  0.67,
+  0.24
+ ],
+ "clear_span": 7.08,
+ "note": "start/finish gantry over the start straight (same 9.06 m structure, two crossed-flag pairs, no text); the chequered line on the road is a ground decal"
+}

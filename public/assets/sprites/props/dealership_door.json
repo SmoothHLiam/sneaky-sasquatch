@@ -1,0 +1,16 @@
+{
+ "w": 198,
+ "h": 264,
+ "anchorX": -687.0,
+ "anchorY": -461.31,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  22.71,
+  9.01
+ ],
+ "anchor_note": "all dealership_* layers share this anchor (centre of the wall bbox)",
+ "layer": "door",
+ "sortY": -4.505,
+ "note": "glass door closed"
+}

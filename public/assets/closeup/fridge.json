@@ -1,0 +1,108 @@
+{
+ "ref": [
+  3024,
+  1898
+ ],
+ "notes": "White fridge (621-632 s). Closed: body + door. Drag the door (or its handle) to the left: it swings open about the hinge at x=778 (scaleX the closed door from 1 to ~0.07 about origin x=0, then swap to door_open which stays on the left). Items stand on the shelves: item bottom = shelf.itemBaseline, x within shelf.x0..x1 (items are drawn above the shelves layer). Close restores the door.",
+ "parts": {
+  "body": {
+   "key": "cu_fridge_body",
+   "x": 1519,
+   "y": 950,
+   "w": 1486,
+   "h": 1980
+  },
+  "shelves": {
+   "key": "cu_fridge_shelves",
+   "x": 1541,
+   "y": 1088.5,
+   "w": 1350,
+   "h": 1167
+  },
+  "door": {
+   "key": "cu_fridge_door",
+   "x": 1513,
+   "y": 1000,
+   "w": 1474,
+   "h": 1880,
+   "origin": [
+    0.0014,
+    0.5
+   ],
+   "pivot": [
+    778,
+    1000
+   ],
+   "hit": [
+    778,
+    66,
+    2248,
+    1898
+   ],
+   "handle": [
+    2060,
+    680,
+    2145,
+    1262
+   ]
+  },
+  "doorOpen": {
+   "key": "cu_fridge_door_open",
+   "x": 779,
+   "y": 1030,
+   "w": 202,
+   "h": 1820,
+   "hit": [
+    680,
+    128,
+    874,
+    1898
+   ]
+  }
+ },
+ "order": [
+  "body",
+  "shelves",
+  "door"
+ ],
+ "states": {
+  "open": [
+   "body",
+   "shelves",
+   "(items)",
+   "doorOpen"
+  ]
+ },
+ "shelves": [
+  {
+   "y0": 513,
+   "y1": 696,
+   "itemBaseline": 666,
+   "x0": 900,
+   "x1": 2190
+  },
+  {
+   "y0": 996,
+   "y1": 1179,
+   "itemBaseline": 1149,
+   "x0": 900,
+   "x1": 2190
+  },
+  {
+   "y0": 1482,
+   "y1": 1665,
+   "itemBaseline": 1635,
+   "x0": 900,
+   "x1": 2190
+  }
+ ],
+ "sample": {
+  "top": [
+   "pepper",
+   "orange"
+  ],
+  "bottom": [
+   "pickles"
+  ]
+ }
+}

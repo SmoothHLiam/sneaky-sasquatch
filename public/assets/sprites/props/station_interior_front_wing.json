@@ -1,0 +1,16 @@
+{
+ "w": 602,
+ "h": 90,
+ "anchorX": -205.0,
+ "anchorY": -192.21,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  8.01,
+  7.91
+ ],
+ "anchor_note": "all station_* layers share this anchor (centre of the wall bbox)",
+ "layer": "interior_front",
+ "sortY": -1.755,
+ "note": "wing front wall cut 0.32 m"
+}

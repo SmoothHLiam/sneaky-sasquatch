@@ -1,0 +1,15 @@
+{
+ "w": 432,
+ "h": 282,
+ "anchorX": 216.0,
+ "anchorY": 202.78,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.1,
+  1.0
+ ],
+ "blocksSight": false,
+ "height": 1.0,
+ "note": "reception counter, clerk stands north of it (inside the U)"
+}

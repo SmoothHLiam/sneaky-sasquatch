@@ -1,0 +1,125 @@
+{
+ "w": 2622,
+ "h": 1710,
+ "anchorX": 1310.0,
+ "anchorY": 1244.91,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  13.06,
+  6.2
+ ],
+ "anchor_note": "all customs_* layers share this anchor (centre of the wall bbox)",
+ "layer": "interior",
+ "walls": [
+  {
+   "x0": -6.53,
+   "x1": -5.66,
+   "y0": -3.1,
+   "y1": -2.9
+  },
+  {
+   "x0": -1.66,
+   "x1": 0.46,
+   "y0": -3.1,
+   "y1": -2.9
+  },
+  {
+   "x0": 5.14,
+   "x1": 6.53,
+   "y0": -3.1,
+   "y1": -2.9
+  },
+  {
+   "x0": 0.46,
+   "x1": 2.34,
+   "y0": -3.1,
+   "y1": -2.9
+  },
+  {
+   "x0": 3.26,
+   "x1": 5.14,
+   "y0": -3.1,
+   "y1": -2.9
+  },
+  {
+   "x0": -6.53,
+   "x1": -6.33,
+   "y0": -3.1,
+   "y1": 3.1
+  },
+  {
+   "x0": 6.33,
+   "x1": 6.53,
+   "y0": -3.1,
+   "y1": 3.1
+  },
+  {
+   "x0": -6.53,
+   "x1": 6.53,
+   "y0": 2.9,
+   "y1": 3.1
+  },
+  {
+   "x0": -1.04,
+   "x1": -0.84,
+   "y0": -2.9,
+   "y1": 2.9
+  }
+ ],
+ "cut_h": 0.32,
+ "rooms": {
+  "bay": {
+   "x0": -6.33,
+   "x1": -1.04,
+   "y0": -2.9,
+   "y1": 2.9
+  },
+  "showroom": {
+   "x0": -0.84,
+   "x1": 6.33,
+   "y0": -2.9,
+   "y1": 2.9
+  }
+ },
+ "doors": {
+  "front": {
+   "x0": 2.34,
+   "x1": 3.26,
+   "y": -3.1,
+   "hinge": "west jamb, opens outward"
+  },
+  "bay": {
+   "x0": -5.66,
+   "x1": -1.66,
+   "y": -3.1
+  }
+ },
+ "furniture": {
+  "customs_desk": [
+   0.41,
+   1.43
+  ],
+  "armchair_orange": [
+   -0.46,
+   -1.48
+  ],
+  "armchair_orange#2": [
+   -0.46,
+   -2.42
+  ],
+  "car_lift": [
+   -3.66,
+   -0.5
+  ]
+ },
+ "display": {
+  "pos": [
+   5.07,
+   0.0
+  ],
+  "facing": "south",
+  "vehicle": "black sports car with grey stripe"
+ },
+ "note": "chequered showroom (0.85 m squares), dark slat back wall with wheel rack / picture / red bench, mats + rug + ottoman baked; west bay wing with oil stains (no door into the showroom seen - partition is a cut wall)"
+}

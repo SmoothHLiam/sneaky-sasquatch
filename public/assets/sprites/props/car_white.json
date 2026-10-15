@@ -1,0 +1,15 @@
+{
+ "w": 636,
+ "h": 384,
+ "anchorX": 318.0,
+ "anchorY": 289.47,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  3.1,
+  1.15
+ ],
+ "blocksSight": true,
+ "height": 1.64,
+ "note": "parked facing east (front at +x)"
+}

@@ -1,0 +1,17 @@
+{
+ "w": 2808,
+ "h": 540,
+ "anchorX": 1404.0,
+ "anchorY": 408.56,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  14.0,
+  1.62
+ ],
+ "blocksSight": false,
+ "height": 2.3,
+ "deck_z": 2.3,
+ "legs_note": "steel legs every ~3.5 m front and back; walk-under is blocked by the X braces",
+ "note": "spectators stand on the deck (deck top 2.3 m: screen offset -(2.3*0.616*200)=-283 px). Length: short ~7 m (notes: \"about 5 SH\"), long 14 m is a guess (east ends never on screen)"
+}

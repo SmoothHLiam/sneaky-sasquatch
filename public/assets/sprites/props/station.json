@@ -1,0 +1,36 @@
+{
+ "w": 1754,
+ "h": 2010,
+ "anchorX": 865.0,
+ "anchorY": 1358.47,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  8.01,
+  7.91
+ ],
+ "anchor_note": "all station_* layers share this anchor (centre of the wall bbox)",
+ "blocksSight": true,
+ "layer": "exterior",
+ "colliders": [
+  {
+   "x0": -3.755,
+   "x1": 0.985,
+   "y0": -3.955,
+   "y1": 3.955
+  },
+  {
+   "x0": 0.785,
+   "x1": 3.775,
+   "y0": -1.755,
+   "y1": 3.955
+  }
+ ],
+ "door": {
+  "x0": -0.99,
+  "x1": -0.16,
+  "y": -3.955,
+  "hinge": "west jamb, opens outward (south)"
+ },
+ "note": "L-shaped log building: gabled main block (sign, door, window) + east wing set back 2.2 m"
+}

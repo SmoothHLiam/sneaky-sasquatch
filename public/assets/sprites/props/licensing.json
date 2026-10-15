@@ -1,0 +1,41 @@
+{
+ "w": 1540,
+ "h": 1644,
+ "anchorX": 769.0,
+ "anchorY": 1080.15,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  7.65,
+  7.0
+ ],
+ "blocksSight": true,
+ "layer": "exterior",
+ "height": 4.26,
+ "door": {
+  "x0": -3.21,
+  "x1": -2.44,
+  "y": -3.5,
+  "note": "decorative (no interior)"
+ },
+ "roofProps": [
+  {
+   "key": "ac_unit",
+   "pos": [
+    -2.835,
+    -2.46
+   ],
+   "z": 3.96,
+   "note": "the AC that gets a \"?\" icon at t243-253"
+  },
+  {
+   "key": "roof_vent",
+   "pos": [
+    0.405,
+    -2.7
+   ],
+   "z": 3.96
+  }
+ ],
+ "note": "exterior only. 7.65 m west unit of the frontage (door, 2-pane + 4-pane windows onto a waiting room, lost-dog poster, blue LICENSING sign). Depth 7 m is a guess (north edge never on screen); the east neighbour with the red \"RACE..\" sign is not modelled"
+}

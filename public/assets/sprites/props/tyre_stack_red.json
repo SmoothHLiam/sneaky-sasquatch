@@ -1,0 +1,15 @@
+{
+ "w": 146,
+ "h": 244,
+ "anchorX": 72.3,
+ "anchorY": 184.46,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  0.7,
+  0.7
+ ],
+ "blocksSight": false,
+ "height": 1.03,
+ "note": "barrier lines alternate red/white stacks every 1.4 m along the line (t384)"
+}

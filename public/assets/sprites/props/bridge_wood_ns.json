@@ -1,0 +1,15 @@
+{
+ "w": 594,
+ "h": 722,
+ "anchorX": 296.0,
+ "anchorY": 424.88,
+ "ppm": 200.0,
+ "pitch": 52.0,
+ "footprint": [
+  2.9,
+  3.7
+ ],
+ "blocksSight": false,
+ "walkable": true,
+ "note": "same bridge rotated: deck runs along y, railings on the E/W sides"
+}
