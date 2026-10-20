@@ -81,8 +81,9 @@ export function buildGround(scene: Phaser.Scene, layer: Phaser.GameObjects.Layer
     const rest = patches.filter((p) => p.kind !== 'grassLight');
     for (const p of light) addPoly(scene, layer, toWorldPx(patchPolygon(p)), GROUND_STYLE.grassLight.fill);
 
+    let grass: Phaser.GameObjects.TileSprite | null = null;
     if (zone.grass !== false && scene.textures.exists('grass_tile')) {
-        const t = scene.add.tileSprite(-pad, H0 - pad, W + pad * 2, H1 - H0 + pad * 2, 'grass_tile').setOrigin(0, 0);
+        const t = (grass = scene.add.tileSprite(-pad, H0 - pad, W + pad * 2, H1 - H0 + pad * 2, 'grass_tile').setOrigin(0, 0));
         t.setTileScale(0.5, 0.5);
         layer.add(t);
     }
@@ -138,7 +139,7 @@ export function buildGround(scene: Phaser.Scene, layer: Phaser.GameObjects.Layer
             g.fillEllipse(wx(q.x), wy(q.y), w, h);
         }
     }
-    return { water };
+    return { water, grass };
 }
 
 function inside(p: Vec, poly: Vec[]) {

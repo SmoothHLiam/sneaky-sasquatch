@@ -9,13 +9,15 @@ import { Minigame } from './scenes/Minigame';
 import { Pause } from './scenes/Pause';
 import './quests';
 import { G } from './core/state';
+import { Settings } from './core/settings';
 
 /**
  * The canvas is rendered at full device resolution (CSS size x devicePixelRatio)
  * and shown at CSS size, so sprites stay crisp on retina screens. All UI is laid
  * out from the canvas size (see ui/layout.ts), so any window shape works.
+ * Optimization mode renders at 1x instead (4x fewer pixels on a retina screen).
  */
-const dpr = () => Math.min(window.devicePixelRatio || 1, 2);
+const dpr = () => (Settings.optimize ? 1 : Math.min(window.devicePixelRatio || 1, 2));
 
 const config: Types.Core.GameConfig = {
     type: AUTO,

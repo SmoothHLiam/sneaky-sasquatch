@@ -3,7 +3,7 @@ import { G } from '../core/state';
 import { Settings } from '../core/settings';
 import { playSfx } from '../core/audio';
 import { L } from '../ui/layout';
-import { UI } from '../ui/widgets';
+import { UI, optimizeText, pillButton } from '../ui/widgets';
 import { TUNING } from '../config/tuning';
 import type { World } from './World';
 
@@ -14,11 +14,10 @@ import type { World } from './World';
  *   - Volume: master volume (Phaser sound manager)
  *   - Field of view: camera zoom; the default (55 %) is the measured zoom, lower sees more.
  *     It previews live behind the menu while you drag.
- *   - Controls page, Fullscreen, Resume, Save & quit to title.
+ *   - Controls page, Fullscreen, Optimization mode, Resume, Save & quit to title.
  * All sizes are ref px (3024 x 1898 reference) through L.r().
  */
-const PANEL = { w: 1500, h: 1290 };
-const DARK = '#232623';
+const PANEL = { w: 1500, h: 1470 };
 const MUTED = '#a9b3a8';
 
 interface Slider {
@@ -122,9 +121,17 @@ export class Pause extends Phaser.Scene {
         const fs = this.button(cx + bw / 2 + gap / 2, rowY, 560, 136, this.fsText(), () => this.toggleFullscreen());
         this.fsLabel = fs.getAt(1) as Phaser.GameObjects.Text;
         c.add(fs);
+        // optimization mode (also offered on the loading screen)
+        const opt = this.button(cx, rowY + L.r(180), 1176, 136, optimizeText(), () => {
+            // label first: the switch resizes the canvas, which rebuilds this menu
+            Settings.optimize = !Settings.optimize;
+            (opt.getAt(1) as Phaser.GameObjects.Text).setText(optimizeText());
+            Settings.setOptimize(Settings.optimize);
+        });
+        c.add(opt);
         // resume / quit
-        c.add(this.button(cx, py + L.r(990), 1176, 150, 'Resume', () => this.close(), { primary: true }));
-        c.add(this.button(cx, py + L.r(1170), 1176, 118, 'Save & quit to title', () => this.quitToTitle(), { danger: true }));
+        c.add(this.button(cx, py + L.r(1170), 1176, 150, 'Resume', () => this.close(), { primary: true }));
+        c.add(this.button(cx, py + L.r(1350), 1176, 118, 'Save & quit to title', () => this.quitToTitle(), { danger: true }));
     }
 
     private buildControls(px: number, py: number, pw: number) {
@@ -146,7 +153,7 @@ export class Pause extends Phaser.Scene {
             c.add(this.text(x0, y, k, 58, UI.highlightMint).setOrigin(0, 0.5));
             c.add(this.text(x1, y, v, 46, '#e8ece7', { wordWrap: { width: pw - L.r(560) }, lineSpacing: -L.r(4) }).setOrigin(0, 0.5));
         });
-        c.add(this.button(cx, py + L.r(1170), 1176, 118, 'Back', () => this.showPage('main')));
+        c.add(this.button(cx, py + L.r(1350), 1176, 118, 'Back', () => this.showPage('main')));
     }
 
     private showPage(page: 'main' | 'controls') {
@@ -159,33 +166,8 @@ export class Pause extends Phaser.Scene {
         return this.add.text(x, y, s, { fontFamily: L.font, fontSize: L.fs(refSize), color, ...extra });
     }
 
-    /** light pill with a dark ring (the game's prompt-bubble look); primary = larger text, danger = red text */
     private button(x: number, y: number, wRef: number, hRef: number, label: string, onClick: () => void, opts: { primary?: boolean; danger?: boolean } = {}) {
-        const w = L.r(wRef), h = L.r(hRef);
-        const g = this.add.graphics();
-        const draw = (hover: boolean) => {
-            g.clear();
-            g.fillStyle(UI.promptRing, 1).fillRoundedRect(-w / 2, -h / 2, w, h, h / 2);
-            const inset = L.r(7);
-            g.fillStyle(hover ? 0xffffff : UI.promptFill, 1).fillRoundedRect(-w / 2 + inset, -h / 2 + inset, w - inset * 2, h - inset * 2, h / 2 - inset);
-        };
-        draw(false);
-        const t = this.text(0, 0, label, opts.primary ? 74 : 58, opts.danger ? UI.highlightRed : DARK).setOrigin(0.5);
-        const box = this.add.container(x, y, [g, t]).setSize(w, h).setInteractive({ useHandCursor: true });
-        box.on('pointerover', () => {
-            draw(true);
-            this.tweens.add({ targets: box, scale: 1.04, duration: 110, ease: 'Quad.Out' });
-        });
-        box.on('pointerout', () => {
-            draw(false);
-            this.tweens.add({ targets: box, scale: 1, duration: 110, ease: 'Quad.Out' });
-        });
-        box.on('pointerdown', () => {
-            playSfx(this, 'click');
-            this.tweens.add({ targets: box, scale: 0.97, duration: 60, yoyo: true });
-            onClick();
-        });
-        return box;
+        return pillButton(this, x, y, wRef, hRef, label, onClick, opts);
     }
 
     /** track + fill + knob; drag anywhere on the row. `tick` marks the default position */

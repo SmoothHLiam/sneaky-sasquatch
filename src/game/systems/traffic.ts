@@ -1,5 +1,6 @@
 import { TUNING } from '../config/tuning';
 import { Vec } from '../core/math';
+import { Settings } from '../core/settings';
 import { SH, depthFor, wx, wy } from '../core/proj';
 import { Actor } from '../entities/Actor';
 import { Human } from '../entities/Human';
@@ -138,7 +139,7 @@ export class TrafficSystem {
             this.ram(c, dt);
             // exhaust puffs (outside-park §4.2)
             c.puffT -= dt;
-            if (c.puffT <= 0) {
+            if (c.puffT <= 0 && !Settings.optimize) {
                 c.puffT = 0.14;
                 const bx = c.actor.x - Math.cos(h) * 1.6, by = c.actor.y - Math.sin(h) * 1.6;
                 const p = this.w.add.circle(wx(bx), wy(by, 0.35), 8, 0xe8ecec, 0.55);

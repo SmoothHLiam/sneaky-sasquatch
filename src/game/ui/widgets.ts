@@ -2,6 +2,8 @@ import * as Phaser from 'phaser';
 import { TUNING } from '../config/tuning';
 import { L } from './layout';
 import { clamp, easeOut, easeOutBack } from '../core/math';
+import { playSfx } from '../core/audio';
+import { Settings } from '../core/settings';
 
 /* ============================================================================
  * Shared colours (sampled from the reference captures)
@@ -31,6 +33,41 @@ const textStyle = (refSize: number, color = '#ffffff', extra: Phaser.Types.GameO
     color,
     ...extra,
 });
+
+/** label for the optimization-mode toggle (loading screen and pause menu) */
+export const optimizeText = () => `Optimization mode: ${Settings.optimize ? 'On' : 'Off'}`;
+
+/**
+ * Light pill button with a dark ring (the prompt-bubble look) used by the menus; sizes in ref px.
+ * primary = larger text, danger = red text. Returns the container; its text is child 1.
+ */
+export function pillButton(scene: Phaser.Scene, x: number, y: number, wRef: number, hRef: number, label: string, onClick: () => void, opts: { primary?: boolean; danger?: boolean } = {}) {
+    const w = L.r(wRef), h = L.r(hRef);
+    const g = scene.add.graphics();
+    const draw = (hover: boolean) => {
+        g.clear();
+        g.fillStyle(UI.promptRing, 1).fillRoundedRect(-w / 2, -h / 2, w, h, h / 2);
+        const inset = L.r(7);
+        g.fillStyle(hover ? 0xffffff : UI.promptFill, 1).fillRoundedRect(-w / 2 + inset, -h / 2 + inset, w - inset * 2, h - inset * 2, h / 2 - inset);
+    };
+    draw(false);
+    const t = scene.add.text(0, 0, label, textStyle(opts.primary ? 74 : 58, opts.danger ? UI.highlightRed : '#232623')).setOrigin(0.5);
+    const box = scene.add.container(x, y, [g, t]).setSize(w, h).setInteractive({ useHandCursor: true });
+    box.on('pointerover', () => {
+        draw(true);
+        scene.tweens.add({ targets: box, scale: 1.04, duration: 110, ease: 'Quad.Out' });
+    });
+    box.on('pointerout', () => {
+        draw(false);
+        scene.tweens.add({ targets: box, scale: 1, duration: 110, ease: 'Quad.Out' });
+    });
+    box.on('pointerdown', () => {
+        playSfx(scene, 'click');
+        scene.tweens.add({ targets: box, scale: 0.97, duration: 60, yoyo: true });
+        onClick();
+    });
+    return box;
+}
 
 /* ============================================================================
  * NPC indicator (eye / ear / ! / ?) with fill ring

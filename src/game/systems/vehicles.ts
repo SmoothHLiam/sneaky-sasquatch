@@ -1,6 +1,7 @@
 import * as Phaser from 'phaser';
 import { TUNING } from '../config/tuning';
 import { G } from '../core/state';
+import { Settings } from '../core/settings';
 import { DEG, Vec, pointInPoly } from '../core/math';
 import { wx, wy } from '../core/proj';
 import { patchPolygon } from '../world/ground';
@@ -137,7 +138,8 @@ export class VehicleSystem {
                 w.player.render();
             } else if (!frozen) v.coast(dt, w.collision);
         }
-        if (!frozen) this.effects(dt);
+        // exhaust, skid marks and dust are cosmetic: skipped in optimization mode
+        if (!frozen && !Settings.optimize) this.effects(dt);
         for (const m of this.marks) {
             m.t -= dt;
             if (m.t < 5) m.img.setAlpha(0.55 * Math.max(0, m.t / 5));
